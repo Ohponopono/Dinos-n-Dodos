@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "shot_trident": {
+    "hurt_entity": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "damage": {
