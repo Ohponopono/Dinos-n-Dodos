@@ -150,6 +150,30 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400025
+        },
+      "model": "dnd:entity/adult_ankylosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400026
+        },
+      "model": "dnd:entity/adult_ankylosaurus_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400027
+        },
+      "model": "dnd:entity/baby_ankylosaurus_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400028
+        },
+      "model": "dnd:entity/baby_ankylosaurus_walking"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409001
         },
       "model": "dnd:entity/ambermancer/ambermancer_head"

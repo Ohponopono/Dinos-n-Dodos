@@ -105,6 +105,12 @@
           "custom_model_data": 401006
         },
       "model": "dnd:block/compsognathus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401007
+        },
+      "model": "dnd:block/ankylosaurus_egg"
     }
   ]
 }
