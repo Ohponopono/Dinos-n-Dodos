@@ -15,7 +15,7 @@ execute as @s[tag=dnd.egg_block] run particle minecraft:item minecraft:furnace{C
 # Genome Modifier
 execute as @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/break
 # Paleontology Table
-execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break
+execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break/main
 # Projector
 execute as @s[tag=dnd.projector] run function dnd:block/projector/break
 # Sifter
