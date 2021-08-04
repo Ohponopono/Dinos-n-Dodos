@@ -6,8 +6,8 @@
 		"right": "dnd:block/crafting_station_right",
 		"bottom": "dnd:block/crafting_station_bottom",
 		"top": "dnd:block/crafting_station_top",
-		"front": "dnd:block/dna_combinator",
-		"particle": "dnd:block/dna_combinator"
+		"front": "dnd:block/genome_combinator",
+		"particle": "dnd:block/genome_combinator"
   },
   "display": {
     "head": {

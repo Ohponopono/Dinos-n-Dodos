@@ -1,10 +1,10 @@
 {
 	"parent": "dnd:block/crafting_station",
   "textures": {
-		"back": "dnd:block/cultivator",
-		"left": "dnd:block/cultivator",
-		"right": "dnd:block/cultivator",
-		"bottom": "dnd:block/cultivator_bottom",
+		"back": "dnd:block/crafting_station_back",
+		"left": "dnd:block/crafting_station_left",
+		"right": "dnd:block/crafting_station_right",
+		"bottom": "dnd:block/crafting_station_bottom",
 		"top": "dnd:block/crafting_station_top",
 		"front": "dnd:block/cultivator",
 		"particle": "dnd:block/cultivator"

@@ -6,8 +6,8 @@
 		"right": "dnd:block/crafting_station_right",
 		"bottom": "dnd:block/crafting_station_bottom",
 		"top": "dnd:block/crafting_station_top",
-		"front": "dnd:block/analyzer",
-		"particle": "dnd:block/analyzer"
+		"front": "dnd:block/genetic_extractor",
+		"particle": "dnd:block/genetic_extractor"
   },
   "display": {
     "head": {

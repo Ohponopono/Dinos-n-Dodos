@@ -1,10 +1,10 @@
 {
 	"parent": "dnd:block/crafting_station",
   "textures": {
-		"back": "dnd:block/projector_side",
-		"left": "dnd:block/projector_side",
-		"right": "dnd:block/projector_side",
-		"bottom": "dnd:block/projector_bottom",
+		"back": "dnd:block/crafting_station_back",
+		"left": "dnd:block/crafting_station_left",
+		"right": "dnd:block/crafting_station_right",
+		"bottom": "dnd:block/crafting_station_bottom",
 		"top": "dnd:block/projector_top",
 		"front": "dnd:block/projector",
 		"particle": "dnd:block/projector_top"

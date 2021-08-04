@@ -1,13 +1,13 @@
 {
 	"parent": "dnd:block/crafting_station",
   "textures": {
-		"back": "dnd:block/sifter_side",
-		"left": "dnd:block/sifter_side",
-		"right": "dnd:block/sifter_side",
-		"bottom": "dnd:block/sifter_bottom",
-		"top": "dnd:block/sifter_top",
-		"front": "dnd:block/sifter_side",
-		"particle": "dnd:block/sifter_top"
+		"back": "dnd:block/crafting_station_back",
+		"left": "dnd:block/crafting_station_left",
+		"right": "dnd:block/crafting_station_right",
+		"bottom": "dnd:block/crafting_station_bottom",
+		"top": "dnd:block/projector_top",
+		"front": "dnd:block/projector",
+		"particle": "dnd:block/projector_top"
   },
   "display": {
     "head": {
