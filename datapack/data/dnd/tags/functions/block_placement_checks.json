@@ -9,6 +9,7 @@
     "dnd:block/amber_block/placement_check",
     "dnd:block/budding_amber/placement_check",
     "dnd:block/projector/placement_check",
-    "dnd:block/petrified_log/placement_check"
+    "dnd:block/petrified_log/placement_check",
+    "dnd:block/paleontology_table/placement_check"
   ]
 }

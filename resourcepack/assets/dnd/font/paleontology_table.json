@@ -1,0 +1,31 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "dnd:gui/negative_space.png",
+      "ascent": -32768,
+      "height": -10,
+      "chars": [
+        "\uc000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "dnd:gui/paleontology_table.png",
+      "ascent": 14,
+      "height": 176.0,
+      "chars": [
+        "\uc001"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "dnd:gui/negative_space.png",
+      "ascent": -32768,
+      "height": -171,
+      "chars": [
+        "\uc002"
+      ]
+    }
+  ]
+}

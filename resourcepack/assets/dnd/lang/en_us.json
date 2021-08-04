@@ -284,6 +284,7 @@
   "block.dnd.petrified_log": "Petrified Log",
   "block.dnd.projector": "Projector",
   "block.dnd.sifter": "Sifter",
+  "block.dnd.paleontology_table": "Paleontology Table",
 
   "gui.dnd.block.analyzer": "\uc000\uc001\uc002%s",
   "gui.dnd.block.cultivator": "\uc000\uc001\uc002%s",
@@ -292,6 +293,7 @@
   "gui.dnd.block.genome_modifier": "\uc000\uc001\uc002%s",
   "gui.dnd.block.projector": "\uc000\uc001\uc002%s",
   "gui.dnd.block.sifter": "\uc000\uc001\uc002%s",
+  "gui.dnd.block.paleontology_table": "\uc000\uc001\uc002%s",
 
   "entity.dnd.acrocanthosaurus": "Acrocanthosaurus",
   "entity.dnd.compsognathus": "Compsognathus",

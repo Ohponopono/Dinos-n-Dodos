@@ -9,3 +9,4 @@ execute if entity @s[tag=dnd.egg_block] unless block ~ ~ ~ structure_void run fu
 execute if entity @s[tag=!dnd.egg_block] unless block ~ ~ ~ air run data merge entity @s {Fire:2s}
 ## Shift-clicking and hoppers
 execute if block ~ ~ ~ dispenser if entity @a[tag=dnd.inside_custom_gui,distance=..10] run function dnd:block/global/gui/check_gui
+execute if entity @s[tag=dnd.paleontology_table] if block ~ ~ ~ barrel[open=true] run function dnd:block/paleontology_table/tick

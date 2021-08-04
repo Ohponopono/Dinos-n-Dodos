@@ -1,0 +1,11 @@
+{
+  "parent": "block/barrel",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:block/paleontology_table"
+    }
+  ]
+}

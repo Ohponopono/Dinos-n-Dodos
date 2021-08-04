@@ -14,6 +14,8 @@ execute as @s[tag=dnd.dna_extractor] run function dnd:block/dna_extractor/break
 execute as @s[tag=dnd.egg_block] run particle minecraft:item minecraft:furnace{CustomModelData:401000} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal
 # Genome Modifier
 execute as @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/break
+# Paleontology Table
+execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break
 # Projector
 execute as @s[tag=dnd.projector] run function dnd:block/projector/break
 # Sifter
