@@ -29,5 +29,8 @@ execute if entity @s[tag=dnd.paleontology_table.assembled_output] run data remov
 
 data modify storage dnd:storage root.temp.export_items set from block ~ ~ ~ Items
 execute store result score @s dnd.dummy run data get block ~ ~ ~ Items
+
+
+# Spawns the items on the nearest player that opened the table's gui
 function dnd:block/paleontology_table/crafting/manage_invalids/spawn_loop
 data modify block ~ ~ ~ Items set from storage dnd:storage root.temp.Items
