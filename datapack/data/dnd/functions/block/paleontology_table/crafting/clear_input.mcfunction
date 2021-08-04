@@ -1,12 +1,10 @@
-############################################################
-# Description: Clears the input for the crafting
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Clears the crafting input
+####################
 
-playsound um:block.undercrafter.craft block @a[distance=..16]
-tag @s remove um.undercrafter.assembled_output
-execute as @a[distance=..12,sort=nearest,tag=um.inside_undercrafter_gui] run function undermagic:block/undercrafter/crafting/cursor_check/main
-execute unless entity @a[distance=..12,sort=nearest,tag=um.inside_undercrafter_gui,tag=!um.shift_clicked] run function undermagic:block/undercrafter/crafting/shift_click/main
+tag @s remove dnd.paleontology_table.assembled_output
+execute as @a[distance=..12,sort=nearest,tag=dnd.inside_paleontology_table_gui] run function dnd:block/paleontology_table/crafting/cursor_check/main
+execute unless entity @a[distance=..12,sort=nearest,tag=dnd.inside_paleontology_table_gui,tag=!dnd.shift_clicked] run function dnd:block/paleontology_table/crafting/shift_click/main
 execute store result block ~ ~ ~ Items[{Slot:2b}].Count int 1 run data get block ~ ~ ~ Items[{Slot:2b}].Count 0.9999999999
 execute store result block ~ ~ ~ Items[{Slot:3b}].Count int 1 run data get block ~ ~ ~ Items[{Slot:3b}].Count 0.9999999999
 execute store result block ~ ~ ~ Items[{Slot:4b}].Count int 1 run data get block ~ ~ ~ Items[{Slot:4b}].Count 0.9999999999

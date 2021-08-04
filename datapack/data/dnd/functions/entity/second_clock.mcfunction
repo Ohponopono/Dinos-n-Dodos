@@ -11,3 +11,6 @@ execute if entity @s[tag=dnd.block] run function dnd:block/second_clock
 ## Clear
 kill @e[tag=!global.ignore,type=item,nbt={Item:{id:"minecraft:barrier",Count:1b,tag:{dnd:{id:"remove"}}}}]
 clear @a barrier{CustomModelData:400000,dnd:{id:"remove"}}
+
+# Deal with paleontology table
+execute as @a[tag=dnd.inside_paleontology_table_gui] at @s unless entity @e[type=armor_stand,tag=dnd.paleontology_table,distance=..10] run tag @s remove dnd.inside_paleontology_table_gui

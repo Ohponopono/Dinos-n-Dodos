@@ -1,29 +1,27 @@
-############################################################
-# Description: Runs commands for shift-clicking the output
-# Creator: CreeperMagnet_
-############################################################
-
+####################
+# Commands to total the extra shift-clicked items needed
+####################
 
 # Find the total number of output items needed
-scoreboard players set um.temp_2 um.dummy 1000
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:2b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:3b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:4b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:11b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:12b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:13b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:20b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:21b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
-execute store result score @s um.dummy run data get block ~ ~ ~ Items[{Slot:22b}].Count
-execute if score @s um.dummy matches 1.. if score @s um.dummy < um.temp_2 um.dummy run scoreboard players operation um.temp_2 um.dummy = @s um.dummy
+scoreboard players set temp_2 dnd.dummy 1000
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:2b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:3b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:4b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:11b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:12b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:13b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:20b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:21b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
+execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:22b}].Count
+execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
 
-scoreboard players remove um.temp_2 um.dummy 1
-execute if score um.temp_2 um.dummy matches 1..64 run function undermagic:block/undercrafter/crafting/shift_click/calculate_extras
+scoreboard players remove temp_2 dnd.dummy 1
+execute if score temp_2 dnd.dummy matches 1..64 run function dnd:block/paleontology_table/crafting/shift_click/calculate_extras

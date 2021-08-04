@@ -1,19 +1,18 @@
-############################################################
-# Description: Processes the input for crafting
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Mirrors the recipes
+####################
 
-data modify storage um:storage root.temp.crafting_input_temp set value [[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}],[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}],[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}]]
+data modify storage dnd:storage root.temp.crafting_input_temp set value [[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}],[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}],[{id:"minecraft:air"},{id:"minecraft:air"},{id:"minecraft:air"}]]
 
-execute unless data storage um:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:0b}]} if data storage um:storage root.temp.crafting_input{0:[{Slot:0b}]} run data modify storage um:storage root.temp.crafting_input_temp[0][2] set from storage um:storage root.temp.crafting_input.0[{Slot:0b}]
-execute unless data storage um:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:1b}]} if data storage um:storage root.temp.crafting_input{0:[{Slot:1b}]} run data modify storage um:storage root.temp.crafting_input_temp[0][1] set from storage um:storage root.temp.crafting_input.0[{Slot:1b}]
-execute unless data storage um:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:2b}]} if data storage um:storage root.temp.crafting_input{0:[{Slot:2b}]} run data modify storage um:storage root.temp.crafting_input_temp[0][0] set from storage um:storage root.temp.crafting_input.0[{Slot:2b}]
-execute unless data storage um:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:0b}]} if data storage um:storage root.temp.crafting_input{1:[{Slot:0b}]} run data modify storage um:storage root.temp.crafting_input_temp[1][2] set from storage um:storage root.temp.crafting_input.1[{Slot:0b}]
-execute unless data storage um:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:1b}]} if data storage um:storage root.temp.crafting_input{1:[{Slot:1b}]} run data modify storage um:storage root.temp.crafting_input_temp[1][1] set from storage um:storage root.temp.crafting_input.1[{Slot:1b}]
-execute unless data storage um:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:2b}]} if data storage um:storage root.temp.crafting_input{1:[{Slot:2b}]} run data modify storage um:storage root.temp.crafting_input_temp[1][0] set from storage um:storage root.temp.crafting_input.1[{Slot:2b}]
-execute unless data storage um:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:0b}]} if data storage um:storage root.temp.crafting_input{2:[{Slot:0b}]} run data modify storage um:storage root.temp.crafting_input_temp[2][2] set from storage um:storage root.temp.crafting_input.2[{Slot:0b}]
-execute unless data storage um:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:1b}]} if data storage um:storage root.temp.crafting_input{2:[{Slot:1b}]} run data modify storage um:storage root.temp.crafting_input_temp[2][1] set from storage um:storage root.temp.crafting_input.2[{Slot:1b}]
-execute unless data storage um:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:2b}]} if data storage um:storage root.temp.crafting_input{2:[{Slot:2b}]} run data modify storage um:storage root.temp.crafting_input_temp[2][0] set from storage um:storage root.temp.crafting_input.2[{Slot:2b}]
+execute unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:0b}]} if data storage dnd:storage root.temp.crafting_input{0:[{Slot:0b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[0][2] set from storage dnd:storage root.temp.crafting_input.0[{Slot:0b}]
+execute unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:1b}]} if data storage dnd:storage root.temp.crafting_input{0:[{Slot:1b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[0][1] set from storage dnd:storage root.temp.crafting_input.0[{Slot:1b}]
+execute unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:2b}]} if data storage dnd:storage root.temp.crafting_input{0:[{Slot:2b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[0][0] set from storage dnd:storage root.temp.crafting_input.0[{Slot:2b}]
+execute unless data storage dnd:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:0b}]} if data storage dnd:storage root.temp.crafting_input{1:[{Slot:0b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[1][2] set from storage dnd:storage root.temp.crafting_input.1[{Slot:0b}]
+execute unless data storage dnd:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:1b}]} if data storage dnd:storage root.temp.crafting_input{1:[{Slot:1b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[1][1] set from storage dnd:storage root.temp.crafting_input.1[{Slot:1b}]
+execute unless data storage dnd:storage root.temp.crafting_input{1:[{id:"minecraft:air",Slot:2b}]} if data storage dnd:storage root.temp.crafting_input{1:[{Slot:2b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[1][0] set from storage dnd:storage root.temp.crafting_input.1[{Slot:2b}]
+execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:0b}]} if data storage dnd:storage root.temp.crafting_input{2:[{Slot:0b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[2][2] set from storage dnd:storage root.temp.crafting_input.2[{Slot:0b}]
+execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:1b}]} if data storage dnd:storage root.temp.crafting_input{2:[{Slot:1b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[2][1] set from storage dnd:storage root.temp.crafting_input.2[{Slot:1b}]
+execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:2b}]} if data storage dnd:storage root.temp.crafting_input{2:[{Slot:2b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[2][0] set from storage dnd:storage root.temp.crafting_input.2[{Slot:2b}]
 
-function undermagic:block/undercrafter/crafting/process_input
-function undermagic:block/undercrafter/crafting/recipes
+function dnd:block/paleontology_table/crafting/process_input
+function dnd:block/paleontology_table/crafting/recipes
