@@ -24,4 +24,4 @@ execute store result score @s dnd.dummy run data get block ~ ~ ~ Items[{Slot:22b
 execute if score @s dnd.dummy matches 1.. if score @s dnd.dummy < temp_2 dnd.dummy run scoreboard players operation temp_2 dnd.dummy = @s dnd.dummy
 
 scoreboard players remove temp_2 dnd.dummy 1
-execute if score temp_2 dnd.dummy matches 1..64 run function dnd:block/paleontology_table/crafting/shift_click/calculate_extras
+execute if score temp_2 dnd.dummy matches 1..64 run function dnd:block/paleontology_table/crafting/output/shift_click/calculate_extras

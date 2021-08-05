@@ -12,7 +12,7 @@ execute store success score @s dnd.dummy run data modify entity @s ArmorItems[3]
 ## If the output changed from full to empty, set score
 execute store success score @s dnd.dummy unless block ~ ~ ~ barrel{Items:[{Slot:16b}]} if data entity @s ArmorItems[3].tag.dnd.stored_output.id run data modify entity @s ArmorItems[3].tag.dnd.stored_output set value {Slot:16b}
 ## If the score changed, run update output commands
-execute if entity @s[scores={dnd.dummy=1..}] run function dnd:block/paleontology_table/updated_output
+execute if entity @s[scores={dnd.dummy=1..}] run function dnd:block/paleontology_table/crafting/output/check
 
 # Input Management
 

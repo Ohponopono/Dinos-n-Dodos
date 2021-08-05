@@ -36,7 +36,7 @@ function dnd:block/paleontology_table/crafting/input/read_barrel
 data modify storage dnd:storage root.temp.item set from block ~ ~ ~ Items[{Slot:16b}]
 data remove block ~ ~ ~ Items[{Slot:16b}]
 
-execute as @p[distance=..12,tag=dnd.inside_paleontology_table_gui,tag=dnd.shift_clicked] at @s run function dnd:block/paleontology_table/crafting/shift_click/spawn_extra_items
+execute as @p[distance=..12,tag=dnd.inside_paleontology_table_gui,tag=dnd.shift_clicked] at @s run function dnd:block/paleontology_table/crafting/output/shift_click/spawn_extra_items
 function dnd:block/paleontology_table/crafting/input/read_barrel
 tag @s remove dnd.paleontology_table.assembled_output
 data modify entity @s ArmorItems[3].tag.dnd.stored_output set value {Slot:16b}
