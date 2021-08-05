@@ -22,9 +22,11 @@ execute if data storage dnd:storage root.temp.item[{Slot:6b}].Count unless entit
 execute if data storage dnd:storage root.temp.item[{Slot:7b}].Count unless entity @s[tag=dnd.slot7] run function dnd:block/global/gui/empty_slot/slot7
 execute if data storage dnd:storage root.temp.item[{Slot:8b}].Count unless entity @s[tag=dnd.slot8] run function dnd:block/global/gui/empty_slot/slot8
 ## Recipes
-# DNA Extractor
+# Genetic Extractor
 execute if entity @s[tag=dnd.genetic_extractor] run function dnd:block/genetic_extractor/recipe
 # Genome Modifier
 execute if entity @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/recipe
+# Cultivator
+execute if entity @s[tag=dnd.cultivator] run function dnd:block/cultivator/recipe
 ## Reset Scoreboard
 scoreboard players reset @s dnd.dummy
