@@ -20,7 +20,19 @@
 			"predicate": {
 				"custom_model_data": 400003
 			},
-			"model": "dnd:block/petrified_log"
+			"model": "dnd:block/petrified_log/up_down"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:block/petrified_log/north_south"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:block/petrified_log/east_west"
 		}
 	]
 }

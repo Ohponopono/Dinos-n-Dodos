@@ -62,7 +62,7 @@
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dnd:block/petrified_log"
+      "model": "dnd:block/petrified_log/up_down"
     },
     {
         "predicate": {
