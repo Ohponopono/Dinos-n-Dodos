@@ -9,6 +9,7 @@ data modify entity @e[type=armor_stand,tag=dnd.spawner_drop,distance=...1,limit=
 
 ## What should drop?
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_block] run function dnd:block/amber_block/break
+execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_tiles] run function dnd:block/amber_tiles/break
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/budding_amber] run function dnd:block/budding_amber/break
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/petrified_log] run function dnd:block/petrified_log/break
 

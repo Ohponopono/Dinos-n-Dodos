@@ -33,6 +33,12 @@
 				"custom_model_data": 400005
 			},
 			"model": "dnd:block/petrified_log/east_west"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:block/amber_tiles"
 		}
 	]
 }

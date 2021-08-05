@@ -66,6 +66,12 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dnd:block/amber_tiles"
+    },
+    {
+        "predicate": {
           "custom_model_data": 401000
         },
       "model": "dnd:block/dinosaur_egg"
