@@ -7,12 +7,12 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"dna_combinator\"}}}]},CustomModelData:400004,dnd:{id:\"dna_combinator\"}}"
+          "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"genetic_extractor\"}}}]},CustomModelData:400001,dnd:{id:\"genetic_extractor\"}}"
         },
         {
           "function": "minecraft:set_name",
           "name": {
-            "translate": "block.dnd.dna_combinator",
+            "translate": "block.dnd.genetic_extractor",
             "italic": false
           }
         },

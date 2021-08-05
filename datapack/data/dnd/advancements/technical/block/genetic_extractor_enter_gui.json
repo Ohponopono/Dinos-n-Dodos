@@ -8,7 +8,7 @@
             "blocks": [
               "minecraft:dispenser"
             ],
-            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:analyzer\",\"translate\":\"gui.dnd.block.analyzer\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.analyzer\"}]}'}"
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:genetic_extractor\",\"translate\":\"gui.dnd.block.genetic_extractor\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.genetic_extractor\"}]}'}"
           }
         }
       }

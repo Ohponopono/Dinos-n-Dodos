@@ -6,39 +6,21 @@
   "overrides": [
     {
         "predicate": {
+          "custom_model_data": 400000
+        },
+      "model": "dnd:block/cultivator"
+    },
+    {
+        "predicate": {
           "custom_model_data": 400001
         },
-      "model": "dnd:block/sifter"
+      "model": "dnd:block/genetic_extractor"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dnd:block/analyzer"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400003
-        },
-      "model": "dnd:block/dna_extractor"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400004
-        },
-      "model": "dnd:block/dna_combinator"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400005
-        },
       "model": "dnd:block/genome_modifier"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400006
-        },
-      "model": "dnd:block/cultivator"
     },
     {
         "predicate": {

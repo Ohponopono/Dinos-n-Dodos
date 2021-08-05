@@ -2,7 +2,7 @@
   "item.minecraft.knowledge_book": "Click to Craft",
   "config.dnd.name": "Dinos & Dodos",
   "config.dnd.nonoperational": "This item is currently not operational",
-  "config.dnd.version": "[1.0.4]",
+  "config.dnd.version": "[1.0.5]",
   "reload.dnd.success": "[Dinos & Dodos] Reloaded!",
   "install.dnd.warning": "This message will only appear once!",
   "install.dnd.thanks": "Thank you for installing Dinos & Dodos!",
@@ -289,6 +289,8 @@
   "block.dnd.projector": "Projector",
   "block.dnd.sifter": "Sifter",
   "block.dnd.paleontology_table": "Paleontology Table",
+  "block.dnd.genetic_extractor": "Genetic Extractor",
+  "block.dnd.genome_modifier": "Genome Modifier",
 
   "gui.dnd.block.analyzer": "\uc000\uc001\uc002%s",
   "gui.dnd.block.cultivator": "\uc000\uc001\uc002%s",
@@ -298,6 +300,8 @@
   "gui.dnd.block.projector": "\uc000\uc001\uc002%s",
   "gui.dnd.block.sifter": "\uc000\uc001\uc002%s",
   "gui.dnd.block.paleontology_table": "\uc000\uc001\uc002%s",
+  "gui.dnd.block.genetic_extractor": "\uc000\uc001\uc002%s",
+  "gui.dnd.block.genome_combinator": "\uc000\uc001\uc002%s",
 
   "entity.dnd.acrocanthosaurus": "Acrocanthosaurus",
   "entity.dnd.ankylosaurus": "Ankylosaurus",
@@ -314,9 +318,7 @@
   "entity.dnd.projection": "Projection",
 
   "subtitles.dnd.block.egg.hatch": "Egg hatches",
-  "subtitles.dnd.block.analyzer.function": "Analyzer analyzes",
-  "subtitles.dnd.block.dna_extractor.function": "DNA Extractor extracts",
-  "subtitles.dnd.block.dna_combinator.function": "DNA Combinator combinates",
+  "subtitles.dnd.block.genetic_extractor.function": "Genetic Extractor extracts",
   "subtitles.dnd.block.genome_modifier.function": "Genome Modifier modifies",
   "subtitles.dnd.block.cultivator.function": "Cultivator cultivates",
   "subtitles.dnd.block.projector.function": "Projector projects",

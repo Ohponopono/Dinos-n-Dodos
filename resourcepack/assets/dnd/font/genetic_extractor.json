@@ -182,16 +182,16 @@
       "type": "bitmap",
       "file": "dnd:gui/negative_space.png",
       "ascent": -32768,
-      "height": -10,
+      "height": -80,
       "chars": [
         "\uc000"
       ]
     },
     {
       "type": "bitmap",
-      "file": "dnd:gui/sifter/main.png",
-      "ascent": 13,
-      "height": 256,
+      "file": "dnd:gui/genetic_extractor/main.png",
+      "ascent": 14,
+      "height": 176.0,
       "chars": [
         "\uc001"
       ]
