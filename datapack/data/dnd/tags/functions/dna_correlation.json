@@ -1,0 +1,8 @@
+{
+  "values": [
+    "dnd:block/genetic_extractor/correlation/building_blocks",
+    "dnd:block/genetic_extractor/correlation/decoration_blocks",
+    "dnd:block/genetic_extractor/correlation/foodstuffs",
+    "dnd:block/genetic_extractor/correlation/miscellaneous"
+  ]
+}
