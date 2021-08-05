@@ -1,7 +1,6 @@
-############################################################
-# Description: Processes the input for crafting
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Process the input for further usage
+####################
 
 execute unless data storage dnd:storage root.temp.crafting_input_temp[2][].Slot run data remove storage dnd:storage root.temp.crafting_input_temp[2]
 execute unless data storage dnd:storage root.temp.crafting_input_temp[0][].Slot run data remove storage dnd:storage root.temp.crafting_input_temp[0]

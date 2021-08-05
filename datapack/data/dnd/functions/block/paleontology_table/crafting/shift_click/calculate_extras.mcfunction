@@ -32,12 +32,12 @@ execute store result block ~ ~ ~ Items[{Slot:22b}].Count byte 1 run scoreboard p
 
 # temp_2 now stores the number of extra items that need to be spawned, and in turn, the count that needs to be removed from each slot
 # Recreate the output nbt so it can be used to create the extras
-function dnd:block/paleontology_table/crafting/recipe_checks
+function dnd:block/paleontology_table/crafting/input/check_recipes
 data modify storage dnd:storage root.temp.item set from block ~ ~ ~ Items[{Slot:16b}]
 data remove block ~ ~ ~ Items[{Slot:16b}]
 
 execute as @p[distance=..12,tag=dnd.inside_paleontology_table_gui,tag=dnd.shift_clicked] at @s run function dnd:block/paleontology_table/crafting/shift_click/spawn_extra_items
-function dnd:block/paleontology_table/crafting/recipe_checks
+function dnd:block/paleontology_table/crafting/input/check_recipes
 tag @s remove dnd.paleontology_table.assembled_output
 data modify entity @s ArmorItems[3].tag.dnd.stored_output set value {Slot:16b}
 data modify entity @s ArmorItems[3].tag.dnd.stored_barrel_data set from block ~ ~ ~ Items

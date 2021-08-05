@@ -15,5 +15,5 @@ execute if data block ~ ~ ~ Items[{Slot:20b}] run data modify storage dnd:storag
 execute if data block ~ ~ ~ Items[{Slot:21b}] run data modify storage dnd:storage root.temp.crafting_input_temp[2][1] set from block ~ ~ ~ Items[{Slot:21b}]
 execute if data block ~ ~ ~ Items[{Slot:22b}] run data modify storage dnd:storage root.temp.crafting_input_temp[2][2] set from block ~ ~ ~ Items[{Slot:22b}]
 
-function dnd:block/paleontology_table/crafting/process_input
-function dnd:block/paleontology_table/crafting/recipe_checks
+function dnd:block/paleontology_table/crafting/input/process
+function dnd:block/paleontology_table/crafting/input/check_recipes

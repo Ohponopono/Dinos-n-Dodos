@@ -18,4 +18,4 @@ execute if entity @s[scores={dnd.dummy=1..}] run function dnd:block/paleontology
 
 ## If input changes, then run updated_input commands
 execute store success score @s dnd.dummy run data modify entity @s ArmorItems[3].tag.dnd.stored_barrel_data set from block ~ ~ ~ Items
-execute if entity @s[scores={dnd.dummy=1..}] if data block ~ ~ ~ Items run function dnd:block/paleontology_table/updated_input
+execute if entity @s[scores={dnd.dummy=1..}] if data block ~ ~ ~ Items run function dnd:block/paleontology_table/crafting/input/read_barrel

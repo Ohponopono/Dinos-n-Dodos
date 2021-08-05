@@ -14,5 +14,5 @@ execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecra
 execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:1b}]} if data storage dnd:storage root.temp.crafting_input{2:[{Slot:1b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[2][1] set from storage dnd:storage root.temp.crafting_input.2[{Slot:1b}]
 execute unless data storage dnd:storage root.temp.crafting_input{2:[{id:"minecraft:air",Slot:2b}]} if data storage dnd:storage root.temp.crafting_input{2:[{Slot:2b}]} run data modify storage dnd:storage root.temp.crafting_input_temp[2][0] set from storage dnd:storage root.temp.crafting_input.2[{Slot:2b}]
 
-function dnd:block/paleontology_table/crafting/process_input
+function dnd:block/paleontology_table/crafting/input/process
 function dnd:block/paleontology_table/crafting/recipes
