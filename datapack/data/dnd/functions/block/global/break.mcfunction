@@ -14,8 +14,6 @@ execute as @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/br
 execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break/main
 # Projector
 execute as @s[tag=dnd.projector] run function dnd:block/projector/break
-# Sifter
-execute as @s[tag=dnd.sifter] run function dnd:block/sifter/break
 
 # Kill the resulting entity
 kill @s
