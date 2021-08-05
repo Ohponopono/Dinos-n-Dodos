@@ -3,15 +3,13 @@
 ####################
 
 tag @s remove dnd.no_shift_click
-data remove storage dnd:storage root.temp
+scoreboard players reset @s dnd.dummy
+# Recreate the output and check if it's the same thing, if so add a tag to invalidate shift-clicking
+
 data modify storage dnd:storage root.temp.export_items set value []
 data modify storage dnd:storage root.temp.export_items append from block ~ ~ ~ Items[{Slot:16b}]
 
-# Recreate the output and check if it's the same thing, if so add a tag to invalidate shift-clicking
-scoreboard players reset @s dnd.dummy
-tag @s add dnd.check_duplicates
 function dnd:block/paleontology_table/crafting/input/read_barrel
-tag @s remove dnd.check_duplicates
 data modify storage dnd:storage root.temp.item set from block ~ ~ ~ Items[{Slot:16b}]
 data remove storage dnd:storage root.temp.item.Count
 data modify storage dnd:storage root.temp.item2 set from storage dnd:storage root.temp.export_items[0]
