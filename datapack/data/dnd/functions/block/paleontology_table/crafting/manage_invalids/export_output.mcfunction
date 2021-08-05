@@ -2,7 +2,6 @@
 # Exports invalid items in the output slot
 ####################
 
-tag @s remove dnd.no_shift_click
 scoreboard players reset @s dnd.dummy
 # Recreate the output and check if it's the same thing, if so add a tag to invalidate shift-clicking
 
