@@ -3,7 +3,7 @@
 # Creator: CreeperMagnet_
 ############################################################
 
-summon item ~ ~ ~ {Tags:["dnd.extra_item"],PickupDelay:3s,Item:{id:"minecraft:stone",Count:1b}}
+summon item ~ ~ ~ {Tags:["dnd.extra_item"],Item:{id:"minecraft:stone",Count:1b}}
 data modify entity @e[tag=dnd.extra_item,type=item,limit=1,sort=nearest] Item set from storage dnd:storage root.temp.item
 tag @e[tag=dnd.extra_item,type=item,limit=1,sort=nearest] remove dnd.extra_item
 scoreboard players remove temp_2 dnd.dummy 1
