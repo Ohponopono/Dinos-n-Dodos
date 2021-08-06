@@ -99,6 +99,12 @@
           "custom_model_data": 401007
         },
       "model": "dnd:block/ankylosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401008
+        },
+      "model": "dnd:block/pachycephalosaurus_egg"
     }
   ]
 }

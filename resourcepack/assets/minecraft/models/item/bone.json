@@ -75,6 +75,12 @@
 				"custom_model_data": 402006
 			},
 			"model": "dnd:item/ankylosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 402007
+			},
+			"model": "dnd:item/pachycephalosaurus_fossil"
 		}
 	]
 }
