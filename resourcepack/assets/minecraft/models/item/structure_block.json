@@ -17,6 +17,12 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dnd:item/upgrade_cartridge"
+    },
+    {
+        "predicate": {
           "custom_model_data": 400006
         },
       "model": "dnd:item/compound_eyes"
