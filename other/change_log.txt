@@ -2,6 +2,7 @@ FR 1.0.5
 
 Features
 + Added the Ankylosaurus
++ Added the Pachycephalosaurus
 + Added the Paleontology Table
 + Added the Genetic Extractor
 + Added Upgrade Cartridges
