@@ -1,15 +1,15 @@
 {
-  "parent": "dnd:revival/genome_modifier",
+  "parent": "dnd:revival/root",
   "display": {
     "icon": {
-      "item": "minecraft:furnace",
+      "item": "minecraft:barrel",
       "nbt": "{CustomModelData:400000}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.cultivator.title"
+      "translate": "advancements.dnd.revival.paleontology_table.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.cultivator.description"
+      "translate": "advancements.dnd.revival.paleontology_table.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -17,11 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "place_block": {
+    "killed_ghast": {
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-            "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"cultivator\"}}}]}}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"paleontology_table\"}}}]}}"
         }
       }
     }

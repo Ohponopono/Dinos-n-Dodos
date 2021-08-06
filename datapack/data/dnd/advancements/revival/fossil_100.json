@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/sifter",
+  "parent": "dnd:revival/fossil",
   "display": {
     "icon": {
       "item": "minecraft:bone",
@@ -25,7 +25,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{storage:{accuracy:100}}}"
+            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100}}}"
           }
         ]
       }

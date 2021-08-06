@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/root",
+  "parent": "dnd:revival/paleontology_table",
   "display": {
     "icon": {
       "item": "minecraft:furnace",

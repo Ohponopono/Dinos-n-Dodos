@@ -1,9 +1,9 @@
 {
-  "parent": "dnd:revival/dna_extractor",
+  "parent": "dnd:revival/genetic_extractor",
   "display": {
     "icon": {
       "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400005}"
+      "nbt": "{CustomModelData:400002}"
     },
     "title": {
       "translate": "advancements.dnd.revival.genome_modifier.title"

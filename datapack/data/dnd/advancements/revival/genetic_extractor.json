@@ -1,15 +1,15 @@
 {
-  "parent": "dnd:revival/root",
+  "parent": "dnd:revival/paleontology_table",
   "display": {
     "icon": {
       "item": "minecraft:furnace",
       "nbt": "{CustomModelData:400001}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.sifter.title"
+      "translate": "advancements.dnd.revival.genetic_extractor.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.sifter.description"
+      "translate": "advancements.dnd.revival.genetic_extractor.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"sifter\"}}}]}}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"genetic_extractor\"}}}]}}"
         }
       }
     }

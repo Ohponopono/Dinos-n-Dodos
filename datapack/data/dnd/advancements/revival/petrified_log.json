@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/amber",
+  "parent": "dnd:revival/fossil_finder",
   "display": {
     "icon": {
       "item": "minecraft:furnace",

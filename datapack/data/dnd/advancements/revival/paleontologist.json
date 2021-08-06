@@ -2,14 +2,14 @@
   "parent": "dnd:revival/paleontology_table",
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
+      "item": "minecraft:leather_chestplate",
       "nbt": "{CustomModelData:400000}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.needle.title"
+      "translate": "advancements.dnd.revival.paleontologist.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.needle.description"
+      "translate": "advancements.dnd.revival.paleontologist.description"
     },
     "frame": "task",
     "show_toast": true,

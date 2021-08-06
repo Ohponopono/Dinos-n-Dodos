@@ -3,13 +3,13 @@
   "display": {
     "icon": {
       "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:400004}"
+      "nbt": "{CustomModelData:400002}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.modification.title"
+      "translate": "advancements.dnd.revival.modified.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.modification.description"
+      "translate": "advancements.dnd.revival.modified.description"
     },
     "frame": "task",
     "show_toast": true,
