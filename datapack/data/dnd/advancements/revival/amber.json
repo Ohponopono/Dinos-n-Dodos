@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/fossil_finder",
+  "parent": "dnd:revival/root",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",

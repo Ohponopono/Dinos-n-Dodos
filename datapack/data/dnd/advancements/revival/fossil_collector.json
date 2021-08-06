@@ -1,0 +1,112 @@
+{
+  "parent": "dnd:revival/fossil",
+  "display": {
+    "icon": {
+      "item": "minecraft:bone",
+      "nbt": "{CustomModelData:400004}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.fossil_collector.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.fossil_collector.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "acrocanthosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:acrocanthosaurus\"}}}}"
+          }
+        ]
+      }
+    },
+    "ankylosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:ankylosaurus\"}}}}"
+          }
+        ]
+      }
+    },
+    "compsognathus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:compsognathus\"}}}}"
+          }
+        ]
+      }
+    },
+    "concavenator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:concavenator\"}}}}"
+          }
+        ]
+      }
+    },
+    "corythosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:corythosaurus\"}}}}"
+          }
+        ]
+      }
+    },
+    "gallimimus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:gallimimus\"}}}}"
+          }
+        ]
+      }
+    },
+    "tyrannosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:tyrannosaurus\"}}}}"
+          }
+        ]
+      }
+    }
+  }
+}

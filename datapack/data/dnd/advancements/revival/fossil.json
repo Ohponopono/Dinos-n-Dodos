@@ -1,9 +1,8 @@
 {
-  "parent": "dnd:revival/fossil_finder",
+  "parent": "dnd:revival/root",
   "display": {
     "icon": {
-      "item": "minecraft:bone",
-      "nbt": "{CustomModelData:400004}"
+      "item": "minecraft:iron_shovel"
     },
     "title": {
       "translate": "advancements.dnd.revival.fossil.title"
@@ -23,7 +22,7 @@
         "items": [
           {
             "items": [
-              "minecraft:structure_block"
+              "minecraft:bone"
             ],
             "nbt": "{dnd:{id:\"fossil\"}}"
           }

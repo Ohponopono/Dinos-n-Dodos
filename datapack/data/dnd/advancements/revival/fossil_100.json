@@ -2,8 +2,7 @@
   "parent": "dnd:revival/fossil",
   "display": {
     "icon": {
-      "item": "minecraft:bone",
-      "nbt": "{CustomModelData:402004}"
+      "item": "minecraft:netherite_shovel"
     },
     "title": {
       "translate": "advancements.dnd.revival.fossil_100.title"
