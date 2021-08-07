@@ -3,7 +3,7 @@
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:403001}"
+      "nbt": "{CustomModelData:401001}"
     },
     "title": {
       "translate": "advancements.dnd.revival.egg_item.title"
