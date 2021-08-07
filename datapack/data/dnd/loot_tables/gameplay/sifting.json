@@ -5,53 +5,13 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/acrocanthosaurus_fossil",
-          "weight": 4
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/ankylosaurus_fossil",
-          "weight": 8
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/compsognathus_fossil",
-          "weight": 7
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/concavenator_fossil",
-          "weight": 6
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/corythosaurus_fossil",
-          "weight": 8
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/gallimimus_fossil",
-          "weight": 10
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/pachycephalosaurus_fossil",
-          "weight": 9
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/tyrannosaurus_fossil",
-          "weight": 2
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/plant_fossil",
-          "weight": 15
+          "name": "dnd:gameplay/fossils",
+          "weight": 1
         },
         {
           "type": "loot_table",
           "name": "dnd:items/amber",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "loot_table",
@@ -61,22 +21,22 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 20
+          "weight": 65
         },
         {
           "type": "item",
           "name": "minecraft:gold_nugget",
-          "weight": 15
+          "weight": 95
         },
         {
           "type": "item",
           "name": "minecraft:iron_nugget",
-          "weight": 20
+          "weight": 100
         },
         {
           "type": "item",
           "name": "minecraft:stick",
-          "weight": 20
+          "weight": 120
         }
       ]
     }
