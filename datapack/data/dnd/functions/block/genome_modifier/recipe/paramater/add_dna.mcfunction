@@ -12,4 +12,4 @@ scoreboard players set temp_2 dnd.dummy 0
 data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:0b}].tag.dnd.storage.entity.id
 execute store success score temp_2 dnd.dummy run data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:6b}].tag.dnd.storage.entity.id
 # Execute
-execute if score temp_0 dnd.dummy matches 0 if score temp_2 dnd.dummy matches 0 run function dnd:block/dna_combinator/recipe/add_dna
+execute if score temp_0 dnd.dummy matches 0 if score temp_2 dnd.dummy matches 0 run function dnd:block/genome_modifier/recipe/add_dna

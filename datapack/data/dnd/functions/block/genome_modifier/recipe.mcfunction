@@ -9,4 +9,4 @@ execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{
 execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:6b,tag:{dnd:{id:"genetic_note"}}},{Slot:0b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100}}}}]} run function dnd:block/genome_modifier/recipe/paramater/note_to_dna
 execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,tag:{dnd:{id:"genetic_note"}}},{Slot:6b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100}}}}]} run function dnd:block/genome_modifier/recipe/paramater/note_to_dna
 # Add DNA
-execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,tag:{dnd:{id:"dna_vial"}}},{Slot:6b,tag:{dnd:{id:"dna_vial"}}}]} run function dnd:block/dna_combinator/recipe/paramater/add_dna
+execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,tag:{dnd:{id:"dna_vial"}}},{Slot:6b,tag:{dnd:{id:"dna_vial"}}}]} run function dnd:block/genome_modifier/recipe/paramater/add_dna

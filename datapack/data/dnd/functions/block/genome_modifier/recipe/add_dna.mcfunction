@@ -15,7 +15,7 @@ execute if score input_1 dnd.math matches 101.. run scoreboard players set input
 execute store result block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.accuracy int 1 run scoreboard players get input_1 dnd.math
 # Replace Accuracy Lore with new Lore
 data modify storage dnd:storage root.temp set from block ~ ~ ~ Items[{Slot:5b}].tag.dnd.storage.accuracy
-item modify block ~ ~ ~ container.5 dnd:block/dna_combinator
+item modify block ~ ~ ~ container.5 dnd:block/genome_modifier
 data modify block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore[1] set from block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore[3]
 data remove block ~ ~ ~ Items[{Slot:5b}].tag.display.Lore[3]
 ## Yellow Name
