@@ -95,6 +95,19 @@
         ]
       }
     },
+    "pachycephalosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:pachycephalosaurus\"}}}}"
+          }
+        ]
+      }
+    },
     "tyrannosaurus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
