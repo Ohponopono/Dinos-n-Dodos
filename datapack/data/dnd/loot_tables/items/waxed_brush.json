@@ -7,12 +7,12 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",uses:0,waxed:0b}}"
+          "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",uses:0,waxed:1b}}"
         },
         {
           "function": "minecraft:set_name",
           "name": {
-            "translate": "item.dnd.brush",
+            "translate": "item.dnd.waxed_brush",
             "italic": false
           }
         },
