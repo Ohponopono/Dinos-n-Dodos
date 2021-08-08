@@ -44,7 +44,7 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, 13, -2],
+			"translation": [0, 13, 0],
 			"scale": [1.601, 1.601, 1.601]
 		}
 	}
