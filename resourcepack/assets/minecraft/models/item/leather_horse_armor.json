@@ -264,6 +264,18 @@
     },
     {
         "predicate": {
+          "custom_model_data": 409013
+        },
+      "model": "dnd:entity/paleontologist/head"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 409014
+        },
+      "model": "dnd:entity/paleontologist/body"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409998
         },
       "model": "dnd:entity/matrix"
