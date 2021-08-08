@@ -28,6 +28,12 @@
 			},
 			"model": "dnd:item/monster_vat"
 		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/brush"
+		},
     {
 			"predicate": {
 				"custom_model_data": 401001
