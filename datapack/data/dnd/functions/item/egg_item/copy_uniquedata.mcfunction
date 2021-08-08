@@ -59,3 +59,5 @@ data modify entity @s Health set from storage dnd:storage root.temp.item.tag.dnd
 data remove storage dnd:storage root.temp.Attributes
 # Remove Tag
 tag @s remove dnd.temp
+# Give PersistenceRequired
+data modify entity @s PersistenceRequired set value 1b
