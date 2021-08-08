@@ -24,3 +24,10 @@ execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if da
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:redstone",Slot:0b},{id:"minecraft:netherite_ingot",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[{id:"minecraft:gold_ingot",Slot:0b},{id:"minecraft:diamond",Slot:1b},{id:"minecraft:air",Slot:2b}],2:[]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/upgrade_cartridge
 # Brush
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:wheat",Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[{id:"minecraft:string",Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],2:[{id:"minecraft:copper_ingot",Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/brush
+
+# Oxidized Brush -> Weathered Brush
+execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{tag:{dnd:{id:"oxidized_brush"}},Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[],2:[]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/weathered_brush
+# Weathered Brush -> Exposed Brush
+execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{tag:{dnd:{id:"weathered_brush"}},Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[],2:[]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/exposed_brush
+# Exposed Brush -> Brush
+execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{tag:{dnd:{id:"exposed_brush"}},Slot:0b},{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[],2:[]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/brush
