@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 100,
+          "weight": 300,
           "quality": 1,
           "name": "dnd:gameplay/paleontology/junk"
         },
@@ -93,7 +93,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 90,
+          "weight": 395,
           "quality": 1,
           "name": "dnd:gameplay/paleontology/junk"
         },
@@ -181,7 +181,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 80,
+          "weight": 290,
           "quality": 1,
           "name": "dnd:gameplay/paleontology/junk"
         },
@@ -269,7 +269,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 70,
+          "weight": 285,
           "quality": 1,
           "name": "dnd:gameplay/paleontology/junk"
         },
