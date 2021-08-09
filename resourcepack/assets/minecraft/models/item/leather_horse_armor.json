@@ -276,6 +276,18 @@
     },
     {
         "predicate": {
+          "custom_model_data": 409015
+        },
+      "model": "dnd:entity/paleontologist/head_hurt"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 409016
+        },
+      "model": "dnd:entity/paleontologist/body_hurt"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409998
         },
       "model": "dnd:entity/matrix"
