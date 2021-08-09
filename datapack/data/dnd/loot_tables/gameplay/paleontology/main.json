@@ -14,7 +14,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 150,
+              "weight": 250,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils",
               "conditions": [
@@ -66,7 +66,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "weight": 120,
+              "weight": 220,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils"
             }
@@ -102,7 +102,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 155,
+              "weight": 255,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils",
               "conditions": [
@@ -154,7 +154,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "weight": 125,
+              "weight": 225,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils"
             }
@@ -190,7 +190,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 160,
+              "weight": 260,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils",
               "conditions": [
@@ -242,7 +242,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "weight": 130,
+              "weight": 230,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils"
             }
@@ -278,7 +278,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "weight": 165,
+              "weight": 265,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils",
               "conditions": [
@@ -330,7 +330,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "weight": 135,
+              "weight": 235,
               "quality": 5,
               "name": "dnd:gameplay/paleontology/fossils"
             }

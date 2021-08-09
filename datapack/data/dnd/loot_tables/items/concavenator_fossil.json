@@ -5,40 +5,129 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 1,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.pristine_fossil",
-                "color": "yellow",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "yellow",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [100]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [100]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "yellow",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [100]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         }
@@ -63,373 +152,1272 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 1,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.pristine_fossil",
-                "color": "yellow",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 3,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "yellow",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [100]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [100]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:402001,dnd:{id:\"fossil\",storage:{accuracy:100,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "yellow",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [100]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 2,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:90,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.pristine_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 5,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:90,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [90]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [90]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:90,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [90]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 3,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:80,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.pristine_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 8,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:80,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [80]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [80]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 3,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400004,dnd:{id:\"fossil\",storage:{accuracy:80,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [80]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 4,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:70,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.cracked_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 11,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:70,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [70]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [70]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 4,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:70,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [70]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 5,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:60,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.cracked_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 13,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:60,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [60]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [60]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 5,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:60,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [60]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 6,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:50,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.fractured_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 14,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:50,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [50]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [50]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 6,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400003,dnd:{id:\"fossil\",storage:{accuracy:50,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [50]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 7,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:40,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.fractured_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 13,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:40,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [40]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [40]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 7,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:40,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [40]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 8,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:30,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.fractured_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 12,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:30,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [30]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [30]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 8,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400002,dnd:{id:\"fossil\",storage:{accuracy:30,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [30]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 9,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:20,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.shattered_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 11,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:20,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [20]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [20]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 9,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:20,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [20]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:bone",
-          "weight": 10,
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:10,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "item.dnd.shattered_fossil",
-                "italic": false
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:10,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [10]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
                       }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
             },
             {
-              "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "lore.dnd.structure.concavenator",
-                "color": "gray",
-                "italic": false
-                      },
-                      {
-                "translate": "lore.dnd.item.accuracy",
-                "color": "gray",
-                "italic": false,
-                "with": [10]
-                      },
-                      {
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "type": "minecraft:item",
+              "weight": 10,
+              "name": "minecraft:bone",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:400001,dnd:{id:\"fossil\",storage:{accuracy:10,dna:{RegenRate:0,produce:{Primary:{id:\"blank\",Count:0b},Secondary:{id:\"blank\",Count:0b}}},entity:{id:\"dnd:concavenator\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.5d,max_health:50.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:1,CustomModelData:405002,Block_CMD:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.concavenator_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:meat\",Tags:[\"dnd.concavenator\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.aggressive\"],DeathLootTable:\"dnd:entity/concavenator\",EntityID:\"dnd:concavenator\",EntityType:\"wandering_trader\",Models:{adult:{idle:400005,walking:400006},baby:{idle:400007,walking:400008}}}}}}}}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "name": {
+                    "translate": "item.dnd.pristine_fossil",
+                    "color": "white",
+                    "italic": false
+                          }
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "lore": [{
+                    "translate": "lore.dnd.structure.concavenator",
+                    "color": "gray",
+                    "italic": false
+                          },
+                          {
+                    "translate": "lore.dnd.item.accuracy",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [10]
+                          },
+                          {
+                    "translate": "config.dnd.name",
+                    "color": "#63E2FF",
+                    "italic": true
+                          }]
+                }
+              ]
             }
           ]
         }
