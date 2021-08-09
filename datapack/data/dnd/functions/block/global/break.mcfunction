@@ -14,6 +14,8 @@ execute as @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/br
 execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break/main
 # Projector
 execute as @s[tag=dnd.projector] run function dnd:block/projector/break
+# Fossil Stand
+execute as @s[tag=dnd.fossil_stand] run function dnd:block/fossil_stand/break
 
 # Kill the resulting entity
 kill @s

@@ -5,6 +5,8 @@
 ## Misc
 # Projector
 execute if entity @s[tag=dnd.projector] run function dnd:block/projector/second_clock
+# Projector
+execute if entity @s[tag=dnd.fossil_stand] run function dnd:block/fossil_stand/second_clock
 # Generate Budding Amber
 execute if entity @s[tag=dnd.budding_amber] run function dnd:block/budding_amber/second_clock
 
