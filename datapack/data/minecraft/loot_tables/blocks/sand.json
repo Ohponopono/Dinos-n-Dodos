@@ -3,26 +3,62 @@
   "pools": [
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnd:gameplay/sifting",
+          "weight": 100,
+          "name": "dnd:gameplay/paleontology/main",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:fortune"
-                  }
-                ]
+                "nbt": "{dnd:{id:\"brush\"}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "dnd:gameplay/paleontology/main",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{dnd:{id:\"exposed_brush\"}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "dnd:gameplay/paleontology/main",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{dnd:{id:\"weathered_brush\"}}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "dnd:gameplay/paleontology/main",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{dnd:{id:\"oxidized_brush\"}}"
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
           "name": "minecraft:sand"
         }
       ],

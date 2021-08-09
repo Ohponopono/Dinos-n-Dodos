@@ -27,14 +27,6 @@
         {
           "function": "minecraft:set_lore",
           "lore": [{
-            "translate": "config.dnd.nonoperational",
-            "color": "#FF0000",
-            "italic": false
-          }]
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
             "translate": "config.dnd.name",
             "color": "#63E2FF",
             "italic": true

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dnd:items/acrocanthosaurus_fossil",
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/plant_fossil",
+          "weight": 35
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/amber",
+          "weight": 25
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/petrified_log",
+          "weight": 15
+        }
+      ]
+    }
+  ]
+}

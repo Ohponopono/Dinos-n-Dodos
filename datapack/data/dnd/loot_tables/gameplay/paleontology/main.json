@@ -1,0 +1,356 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "quality": 1,
+          "name": "dnd:gameplay/paleontology/junk"
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 150,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 120,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 10,
+          "name": "dnd:gameplay/paleontology/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"brush\"}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 90,
+          "quality": 1,
+          "name": "dnd:gameplay/paleontology/junk"
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 155,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 125,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "quality": 10,
+          "name": "dnd:gameplay/paleontology/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"exposed_brush\"}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 80,
+          "quality": 1,
+          "name": "dnd:gameplay/paleontology/junk"
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 160,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 130,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "quality": 10,
+          "name": "dnd:gameplay/paleontology/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"weathered_brush\"}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 70,
+          "quality": 1,
+          "name": "dnd:gameplay/paleontology/junk"
+        },
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 165,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_helmet\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_chestplate\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_leggings\"}}"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "nbt": "{dnd:{id:\"paleontologist_boots\"}}"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 135,
+              "quality": 5,
+              "name": "dnd:gameplay/paleontology/fossils"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "quality": 10,
+          "name": "dnd:gameplay/paleontology/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"oxidized_brush\"}}"
+          }
+        }
+      ]
+    }
+  ]
+}
