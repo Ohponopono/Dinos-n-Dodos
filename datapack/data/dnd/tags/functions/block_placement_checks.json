@@ -8,6 +8,7 @@
     "dnd:block/genome_modifier/placement_check",
     "dnd:block/paleontology_table/placement_check",
     "dnd:block/petrified_log/placement_check",
-    "dnd:block/projector/placement_check"
+    "dnd:block/projector/placement_check",
+    "dnd:block/fossil_stand/placement_check"
   ]
 }

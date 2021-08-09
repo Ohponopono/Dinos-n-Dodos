@@ -24,6 +24,30 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400003
+        },
+      "model": "dnd:block/vat"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400004
+        },
+      "model": "dnd:block/blank"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400005
+        },
+      "model": "dnd:block/genetic_analyzer"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dnd:block/fossil_stand"
+    },
+    {
+        "predicate": {
           "custom_model_data": 400008
         },
       "model": "dnd:block/projector"

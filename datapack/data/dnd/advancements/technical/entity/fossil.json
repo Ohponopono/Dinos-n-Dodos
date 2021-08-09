@@ -5,12 +5,12 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"dnd.unlocked\",\"dnd.projection\"]}"
+          "nbt": "{Tags:[\"dnd.unlocked\",\"dnd.fossil\"]}"
         }
       }
     }
   },
   "rewards": {
-    "function": "dnd:entity/projection/raycast_start"
+    "function": "dnd:entity/fossil/raycast_start"
   }
 }
