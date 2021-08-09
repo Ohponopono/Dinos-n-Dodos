@@ -1,0 +1,53 @@
+{
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "dnd:entity/fossil/basic_50",
+		"particle": "dnd:entity/fossil/basic_50"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 10],
+			"to": [9, 24, 12],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 15, 6]},
+			"faces": {
+				"north": {"uv": [12.66667, 0.66667, 13.33333, 8.66667], "texture": "#0"},
+				"east": {"uv": [12, 0.66667, 12.66667, 8.66667], "texture": "#0"},
+				"south": {"uv": [14, 0.66667, 14.66667, 8.66667], "texture": "#0"},
+				"west": {"uv": [13.33333, 0.66667, 14, 8.66667], "texture": "#0"},
+				"up": {"uv": [13.33333, 0.66667, 12.66667, 0], "texture": "#0"},
+				"down": {"uv": [14, 0, 13.33333, 0.66667], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, -1, 0],
+			"to": [13, 31, 8],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 15, 4]},
+			"faces": {
+				"north": {"uv": [2.66667, 2.66667, 6, 13.33333], "texture": "#0"},
+				"east": {"uv": [0, 2.66667, 2.66667, 13.33333], "texture": "#0"},
+				"south": {"uv": [8.66667, 2.66667, 12, 13.33333], "texture": "#0"},
+				"west": {"uv": [6, 2.66667, 8.66667, 13.33333], "texture": "#0"},
+				"up": {"uv": [6, 2.66667, 2.66667, 0], "texture": "#0"},
+				"down": {"uv": [9.33333, 0, 6, 2.66667], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -9.5, -6]
+		},
+		"head": {
+			"translation": [0, -43.23, 0],
+			"scale": [1.601, 1.601, 1.601]
+		}
+	},
+	"groups": [
+		{
+			"name": "Global",
+			"origin": [8, 15, 4],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
