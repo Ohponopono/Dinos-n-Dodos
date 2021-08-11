@@ -14,6 +14,10 @@ execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.
 execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.temp.item.tag.dnd{id:"exposed_brush"} run loot replace entity @s weapon.mainhand loot dnd:items/weathered_brush
 # Weathered -> Oxidized
 execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.temp.item.tag.dnd{id:"weathered_brush"} run loot replace entity @s weapon.mainhand loot dnd:items/oxidized_brush
+# Oxidized -> Broken
+execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.temp.item.tag.dnd{id:"oxidized_brush"} run particle item minecraft:carrot_on_a_stick{CustomModelData:400007} ~ ~1 ~ 0.2 0.2 0.2 0.1 10 normal
+execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.temp.item.tag.dnd{id:"oxidized_brush"} run playsound minecraft:entity.item.break player @a[distance=..16] ~ ~ ~ 1 0.9
+execute if entity @s[scores={dnd.dummy=192..}] if data storage dnd:storage root.temp.item.tag.dnd{id:"oxidized_brush"} run item replace entity @s weapon.mainhand with air
 
 # Reset
 scoreboard players reset @s dnd.dummy
