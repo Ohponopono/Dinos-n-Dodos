@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dnd:trades/paleontologist/trade_6/machine"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:trades/paleontologist/trade_6/display_device"
+        }
+      ]
+    }
+  ]
+}
