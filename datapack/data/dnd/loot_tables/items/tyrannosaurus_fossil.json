@@ -547,7 +547,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -631,7 +631,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -674,7 +674,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -758,7 +758,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -801,7 +801,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -885,7 +885,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.fractured_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -928,7 +928,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.cracked_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1012,7 +1012,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.cracked_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1055,7 +1055,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.cracked_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1139,7 +1139,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.cracked_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1182,7 +1182,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.shattered_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1266,7 +1266,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.shattered_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1309,7 +1309,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.shattered_fossil",
                     "color": "white",
                     "italic": false
                           }
@@ -1393,7 +1393,7 @@
                 {
                   "function": "minecraft:set_name",
                   "name": {
-                    "translate": "item.dnd.pristine_fossil",
+                    "translate": "item.dnd.shattered_fossil",
                     "color": "white",
                     "italic": false
                           }

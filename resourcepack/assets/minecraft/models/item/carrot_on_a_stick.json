@@ -52,6 +52,12 @@
 			},
 			"model": "dnd:item/oxidized_brush"
 		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:item/chisel"
+		},
     {
 			"predicate": {
 				"custom_model_data": 401001
