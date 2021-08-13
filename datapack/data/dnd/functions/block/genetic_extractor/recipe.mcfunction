@@ -12,3 +12,4 @@ execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{
 execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,id:"minecraft:paper"},{Slot:6b,tag:{dnd:{id:"dna_needle"}}}]} run function dnd:block/genetic_extractor/recipe/needle_to_note
 # Fossil
 execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,id:"minecraft:paper"},{Slot:6b,tag:{dnd:{id:"fossil"}}}]} run function dnd:block/genetic_extractor/recipe/fossil_to_note
+execute unless data block ~ ~ ~ Items[{Slot:5b}].Count if block ~ ~ ~ dispenser{Items:[{Slot:0b,id:"minecraft:paper"},{Slot:6b,tag:{dnd:{id:"frozen_meat"}}}]} run function dnd:block/genetic_extractor/recipe/fossil_to_note

@@ -198,6 +198,30 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400033
+        },
+      "model": "dnd:entity/adult_dodo_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400034
+        },
+      "model": "dnd:entity/adult_dodo_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400035
+        },
+      "model": "dnd:entity/baby_dodo_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400036
+        },
+      "model": "dnd:entity/baby_dodo_walking"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409001
         },
       "model": "dnd:entity/ambermancer/ambermancer_head"

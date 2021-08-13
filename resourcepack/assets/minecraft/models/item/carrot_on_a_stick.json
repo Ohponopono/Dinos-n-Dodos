@@ -66,6 +66,12 @@
 		},
     {
 			"predicate": {
+				"custom_model_data": 401002
+			},
+			"model": "dnd:item/dodo_egg"
+		},
+    {
+			"predicate": {
 				"custom_model_data": 402001
 			},
 			"model": "dnd:item/bee_ootheca"
