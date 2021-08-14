@@ -8,11 +8,29 @@
 			"predicate": {
 				"custom_model_data": 400000
 			},
-			"model": "dnd:item/frozen_meat"
+			"model": "dnd:item/decaying_frozen_meat"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400001
+			},
+			"model": "dnd:item/tainted_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/rotted_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/spoiled_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
 			},
 			"model": "dnd:item/frozen_dodo_meat"
 		}

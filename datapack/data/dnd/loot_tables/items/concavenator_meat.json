@@ -11,12 +11,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"dinosaur_steak\"}}"
+              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob\"concavenator\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.concavenator_meat",
+                "translate": "item.dnd.raw_concavenator_meat",
                 "color": "white",
                 "italic": false
                       }

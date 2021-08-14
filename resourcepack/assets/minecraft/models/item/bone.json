@@ -6,9 +6,15 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 400001
+				"custom_model_data": 400000
 			},
 			"model": "dnd:item/shattered_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/eroded_fossil"
 		},
 		{
 			"predicate": {
@@ -26,59 +32,53 @@
 			"predicate": {
 				"custom_model_data": 400004
 			},
-			"model": "dnd:item/pristine_fossil"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 401000
-			},
 			"model": "dnd:item/plant_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402000
+				"custom_model_data": 400100
 			},
 			"model": "dnd:item/acrocanthosaurus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402001
+				"custom_model_data": 400101
 			},
 			"model": "dnd:item/concavenator_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402002
+				"custom_model_data": 400102
 			},
 			"model": "dnd:item/corythosaurus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402003
+				"custom_model_data": 400103
 			},
 			"model": "dnd:item/gallimimus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402004
+				"custom_model_data": 400104
 			},
 			"model": "dnd:item/tyrannosaurus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402005
+				"custom_model_data": 400105
 			},
 			"model": "dnd:item/compsognathus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402006
+				"custom_model_data": 400106
 			},
 			"model": "dnd:item/ankylosaurus_fossil"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 402007
+				"custom_model_data": 400107
 			},
 			"model": "dnd:item/pachycephalosaurus_fossil"
 		}

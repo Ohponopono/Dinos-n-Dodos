@@ -11,12 +11,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"dinosaur_steak\"}}"
+              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob\"tyrannosaurus\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.tyrannosaurus_meat",
+                "translate": "item.dnd.raw_tyrannosaurus_meat",
                 "color": "white",
                 "italic": false
                       }
