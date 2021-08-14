@@ -21,6 +21,7 @@ function dnd:block/paleontology_table/crafting/recipes
 execute if data storage dnd:storage root.temp.crafting_input{0:[{}],1:[{}],2:[{}]} unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],2:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}]} if entity @s[scores={dnd.dummy=0}] run function dnd:block/paleontology_table/crafting/input/mirror
 execute if data storage dnd:storage root.temp.crafting_input{0:[{}],1:[{}],2:[]} unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}],1:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}]} if entity @s[scores={dnd.dummy=0}] run function dnd:block/paleontology_table/crafting/input/mirror
 execute if data storage dnd:storage root.temp.crafting_input{0:[{}],1:[],2:[]} unless data storage dnd:storage root.temp.crafting_input{0:[{id:"minecraft:air",Slot:1b},{id:"minecraft:air",Slot:2b}]} if entity @s[scores={dnd.dummy=0}] run function dnd:block/paleontology_table/crafting/input/mirror
+execute if entity @s[scores={dnd.dummy=0}] run function dnd:block/paleontology_table/crafting/shapeless_recipes
 
 # If something was crafted, add the assembled output nonsense
 execute if entity @s[scores={dnd.dummy=0}] run data remove block ~ ~ ~ Items[{Slot:16b}]
