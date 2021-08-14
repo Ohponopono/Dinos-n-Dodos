@@ -5,61 +5,25 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "weight": 100,
-          "name": "dnd:gameplay/paleontology/main",
-          "conditions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{dnd:{id:\"brush\"}}"
-              }
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/main",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "nbt": "{dnd:{id:\"brush\"}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:red_sand"
             }
           ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 100,
-          "name": "dnd:gameplay/paleontology/main",
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{dnd:{id:\"exposed_brush\"}}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 100,
-          "name": "dnd:gameplay/paleontology/main",
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{dnd:{id:\"weathered_brush\"}}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 100,
-          "name": "dnd:gameplay/paleontology/main",
-          "conditions": [
-            {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "nbt": "{dnd:{id:\"oxidized_brush\"}}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:red_sand"
         }
       ],
       "conditions": [
