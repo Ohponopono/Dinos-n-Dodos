@@ -8,6 +8,8 @@ scoreboard objectives remove dnd.dummy
 scoreboard objectives remove dnd.math
 scoreboard objectives remove dnd.timer
 scoreboard objectives remove dnd.carrotstick
+scoreboard objectives remove dnd.mine_sand
+scoreboard objectives remove dnd.mine_rsand
 
 ## Team
 team remove global.antivil

@@ -7,3 +7,4 @@ execute if entity @s[predicate=dnd:entity/holding_anything] run function dnd:ent
 
 ## Reset Scoreboard
 scoreboard players reset @s dnd.mine_sand
+scoreboard players reset @s dnd.mine_rsand
