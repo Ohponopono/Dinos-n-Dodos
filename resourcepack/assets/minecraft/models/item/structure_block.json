@@ -38,6 +38,12 @@
           "custom_model_data": 400008
         },
       "model": "dnd:item/tuft"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dnd:item/amber_gemstone"
     }
   ]
 }

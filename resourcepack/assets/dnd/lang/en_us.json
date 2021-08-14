@@ -1,5 +1,6 @@
 {
   "item.minecraft.knowledge_book": "Click to Craft",
+  "pack.collaboration": "%s + %s",
   "config.dnd.name": "Dinos & Dodos",
   "config.dnd.nonoperational": "This item is currently not operational",
   "config.dnd.version": "[1.0.5]",
@@ -28,8 +29,9 @@
   "item.dnd.needle": "Needle",
   "item.dnd.dna_vial": "Vial of DNA",
   "item.dnd.amber": "Amber",
+  "item.dnd.amber_ring": "Amber Ring",
+  "item.dnd.amber_ring.pristine": "Pristine Amber Ring",
   "item.dnd.amber_gemstone": "Amber Gemstone",
-  "item.dnd.amber_gemstone.pristine": "Pristine Amber Gemstone",
   "item.dnd.amber_staff": "Amber Staff",
   "item.dnd.paleontology_helmet": "Pith Hat",
   "item.dnd.paleontology_chestplate": "Paleontologist Shirt",
@@ -131,6 +133,8 @@
   "item.dnd.zombified_piglin_vat": "Zombified Piglin Vat",
   "item.dnd.snow_golem_vat": "Snow Golem Vat",
   "item.dnd.zombie_horse_vat": "Zombie Horse Vat",
+
+  "attribute.name.dnd.fossil_restoration": "Fossil Restoration",
 
   "lore.dnd.item.paleontology_armor": "Gives a minor bonus to your paleontology",
   "lore.dnd.item.accuracy": "┗━ Accuracy: %s",
