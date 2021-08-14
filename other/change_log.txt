@@ -1,22 +1,40 @@
 FR 1.0.5
 
 Features
+~ Lots of optimization
+~ Complete Paleontology Revamp
+~ Updated the Genome Modifier
 + Added the Ankylosaurus
 + Added the Pachycephalosaurus
++ Added the Dodo
 + Added the Paleontology Table
++ Added the Paleontologist Villager
++ Added the Brush
++ Added the Chisel
 + Added the Genetic Extractor
 + Added Upgrade Cartridges
++ Added the Fossil Stand
 - Removed the DNA Combinator
 - Removed the DNA Extractor
 - Removed the Analyzer
 - Removed the Sifter
-~ Updated the Genome Modifier
-~ Updated how fossils are acquired
-~ Lots of optimization
+
+Paleontology Revamp
+  • Fossils are uncovered by mining sand with Brushes while Frozen Meat is uncovered by mining ice with Chisels.
+  • There are now only 5 levels of accuracy, instead of the 10 they had prior.
+      ○ Combining accuracy levels is now similar to Enchanted Books. Two Accuracy I's will add to a Accuracy II, but an Accuracy I combined with an Accuracy II would only create an Accuracy II.
+      ○ As for fossils, corresponding to their level in order of lowest to highest the new names are as follows: Shattered Fossil, Eroded Fossil, Fractured Fossil, Cracked Fossil and the Pristine Fossil.
+      ○ As for frozen meats, corresponding to their level in order of lowest to highest the new names are as follows: Spoiled Frozen Meat, Rotted Frozen Meat, Tainted Frozen Meat, Decaying Frozen Meat and Pristine Frozen Meat.
+      ○ Like before, for both fossils and frozen meats, the highest level of accuracy always has a custom texture corresponding to the animal of the fossil.
+  • Using items with the Fossil Preservation attribute can increase your chance of extracting fossils and frozen meats with higher levels of accuracy.
+  • Using more oxidized brushes can also increase the chance of fossils themselves dropping from sand when mined, however this also decreases the chance of treasure items dropping.
 
 Paleontology Table
-  • A new crafting station that works similarly to the crafting table.
-  • All Dinos & Dodos items are crafted in the Paleontology Table.
+  • A new crafting station that works similarly to the crafting table. All Dinos & Dodos items are now crafted in this block.
+
+Paleontologist
+  • The Paleontologist is a new villager profession that uses the Paleontology Table as their workstation block.
+  • Paleontologists sell a variety of paleontological items, including fossils of varying accuracies.
 
 Genetic Extractor
   • The Genetic Extractor takes on the use of the Analyzer and DNA Extractor.
@@ -32,6 +50,3 @@ Upgrade Cartridges
       ○ Genetic Extractors become
       ○ Genome Modifiers become the Genetic Decoder
       ○ Cultivators become the Vat
-
-Fossils
-  • Fossils are now discovered by mining sand with a fortune shovel.
