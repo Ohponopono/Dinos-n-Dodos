@@ -52,7 +52,7 @@
                   "with": [
                     "1",
                     {
-                      "translate": "attribute.name.dnd.fossil_restoration"
+                      "translate": "attribute.name.dnd.fossil_preservation"
                     }
                   ]
                 }

@@ -9,8 +9,8 @@ execute if data storage tcc:storage root.temp.gemstone{quality:"pristine"} if da
 data modify storage tcc:storage root.temp.item.tag.display.Lore[-1] set value '{"translate":"pack.collaboration","italic":true,"color":"white","with":[{"translate":"pack.tcc","color":"#008725","italic":true},{"translate":"config.dnd.name","color":"#63E2FF","italic":true}]}'
 data modify storage tcc:storage root.temp.item.tag.display.Lore append value '""'
 data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"gray","translate":"item.modifiers.offhand"}'
-execute if data storage tcc:storage root.temp.gemstone{quality:"cut"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["1",{"translate":"attribute.name.dnd.fossil_restoration"}]}'
-execute if data storage tcc:storage root.temp.gemstone{quality:"pristine"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["2",{"translate":"attribute.name.dnd.fossil_restoration"}]}'
+execute if data storage tcc:storage root.temp.gemstone{quality:"cut"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["1",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
+execute if data storage tcc:storage root.temp.gemstone{quality:"pristine"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["2",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
 
 data modify storage tcc:storage root.temp.item.tag.tcc.gemstone.lore_attribute set value 1
 scoreboard players set tcc.temp_1 tcc.dummy 408000
