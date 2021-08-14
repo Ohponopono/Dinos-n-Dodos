@@ -11,4 +11,4 @@ execute if entity @e[tag=dnd.entity,tag=!global.ignore,distance=3..24,nbt={Armor
 execute store result score input_1 dnd.math run data get entity @s ArmorItems[3].tag.dnd.storage.Age
 execute store result entity @s ArmorItems[3].tag.dnd.storage.Age int 1 run scoreboard players add input_1 dnd.math 10
 # Remove Baby Tag
-tag @s[tag=dnd.baby,nbt={ArmorItems:[{},{},{},{tag:{dnd:{storage:{Age:0}}}}]}] remove dnd.baby
+execute if score input_1 dnd.math matches 0.. run tag @s remove dnd.baby
