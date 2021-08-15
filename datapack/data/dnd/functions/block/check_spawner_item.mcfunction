@@ -12,6 +12,7 @@ execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_block] r
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_tiles] run function dnd:block/amber_tiles/break
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/budding_amber] run function dnd:block/budding_amber/break
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/petrified_log] run function dnd:block/petrified_log/break
+execute if entity @s[predicate=dnd:block/check_spawner_item/block/petrified_wood] run function dnd:block/petrified_wood/break
 
 ## Kill Entities
 execute as @s at @s align xyz run kill @e[type=experience_orb,dx=0]

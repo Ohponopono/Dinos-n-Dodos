@@ -39,6 +39,24 @@
 				"custom_model_data": 400006
 			},
 			"model": "dnd:block/amber_tiles"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:block/petrified_wood/up_down"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:block/petrified_wood/north_south"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:block/petrified_wood/east_west"
 		}
 	]
 }
