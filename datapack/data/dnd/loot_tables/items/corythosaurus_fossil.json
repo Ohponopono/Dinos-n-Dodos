@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:402002,dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:corythosaurus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.48d,max_health:60.0d,follow_range:16.0},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405003,Block_CMD:401003,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.corythosaurus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:plant\",Tags:[\"dnd.corythosaurus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.light_herd\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/corythosaurus\",EntityID:\"dnd:corythosaurus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400009,walking:400010},baby:{idle:400011,walking:400012},fossil:{skull:400022,stiff:400023,posed:400024}}}}}}}}"
+              "tag": "{CustomModelData:400102,dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:corythosaurus\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.48d,max_health:60.0d,follow_range:16.0},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_block\",HatchWhen:0,CustomModelData:405003,Block_CMD:401003,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.corythosaurus_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:plant\",Tags:[\"dnd.corythosaurus\",\"dnd.dinosaur\",\"dnd.needlable\",\"dnd.light_herd\",\"dnd.neutral\"],DeathLootTable:\"dnd:entity/corythosaurus\",EntityID:\"dnd:corythosaurus\",EntityType:\"wandering_trader\",Models:{adult:{idle:400009,walking:400010},baby:{idle:400011,walking:400012},fossil:{skull:400022,stiff:400023,posed:400024}}}}}}}}"
             },
             {
               "function": "minecraft:set_name",
@@ -25,7 +25,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "lore.dnd.accuracy.5",
+                  "translate": "lore.dnd.item.accuracy.5",
                   "color": "gray",
                   "italic": false
                 },

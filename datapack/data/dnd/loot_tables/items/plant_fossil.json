@@ -11,22 +11,24 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:401000,dnd:{id:\"plant_fossil\",plant:{id:\"random\"}}}"
+              "tag": "{CustomModelData:400004,dnd:{id:\"plant_fossil\",plant:{id:\"random\"}}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
                 "translate": "item.dnd.fossil.plant",
                 "italic": false
-                      }
+              }
             },
             {
               "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "config.dnd.name",
-                "color": "#63E2FF",
-                "italic": true
-                      }]
+              "lore": [
+                {
+                  "translate": "config.dnd.name",
+                  "color": "#63E2FF",
+                  "italic": true
+                }
+              ]
             }
           ]
         }
