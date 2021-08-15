@@ -5,6 +5,7 @@
       "entries": [
         {
           "type": "minecraft:alternatives",
+          "weight": 20,
           "children": [
             {
               "type": "minecraft:loot_table",
@@ -20,12 +21,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/5",
@@ -40,12 +36,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/4",
@@ -60,12 +51,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/3",
@@ -80,12 +66,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/2",
@@ -100,12 +81,7 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/1",
@@ -120,17 +96,17 @@
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:alternatives",
-          "children": [
+            },
             {
               "type": "minecraft:loot_table",
               "name": "dnd:gameplay/paleontology/fossil_preservation/0"
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/plant_fossil",
+          "weight": 1
         }
       ]
     }
