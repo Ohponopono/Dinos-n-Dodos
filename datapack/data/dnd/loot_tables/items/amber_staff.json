@@ -6,7 +6,7 @@
       "weight": 1,
       "functions": [{
           "function": "minecraft:set_nbt",
-          "tag": "{HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"amber_staff\"},CustomModelData:400002}"
+          "tag": "{HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"amber_staff\"},CustomModelData:400009}"
         },
         {
           "function": "minecraft:set_name",
@@ -15,14 +15,6 @@
             "color": "yellow",
             "italic": false
           }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [{
-            "translate": "config.dnd.nonoperational",
-            "color": "#FF0000",
-            "italic": false
-          }]
         },
         {
           "function": "minecraft:set_lore",

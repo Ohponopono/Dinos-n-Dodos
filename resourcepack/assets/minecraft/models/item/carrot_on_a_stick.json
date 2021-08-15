@@ -58,6 +58,12 @@
 			},
 			"model": "dnd:item/chisel"
 		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:item/amber_staff"
+		},
     {
 			"predicate": {
 				"custom_model_data": 401001
