@@ -4,59 +4,133 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "dnd:items/acrocanthosaurus_fossil",
-          "weight": 4
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/6",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 6
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/ankylosaurus_fossil",
-          "weight": 8
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/5",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 5
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/compsognathus_fossil",
-          "weight": 7
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/4",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 4
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/concavenator_fossil",
-          "weight": 6
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/3",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 3
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/corythosaurus_fossil",
-          "weight": 8
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/2",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 2
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/gallimimus_fossil",
-          "weight": 10
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/1",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_pres": {
+                      "min": 1
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "loot_table",
-          "name": "dnd:items/pachycephalosaurus_fossil",
-          "weight": 9
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/tyrannosaurus_fossil",
-          "weight": 2
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/plant_fossil",
-          "weight": 12
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/amber",
-          "weight": 15
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/petrified_log",
-          "weight": 5
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/fossil_preservation/0"
+            }
+          ]
         }
       ]
     }

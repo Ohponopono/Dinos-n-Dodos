@@ -10,6 +10,7 @@ scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.carrotstick minecraft.used:carrot_on_a_stick
 scoreboard objectives add dnd.mine_sand minecraft.mined:minecraft.sand
 scoreboard objectives add dnd.mine_rsand minecraft.mined:minecraft.red_sand
+scoreboard objectives add dnd.fossil_pres dummy
 
 ## Antivillager
 team add global.antivil

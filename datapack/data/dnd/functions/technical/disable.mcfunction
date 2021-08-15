@@ -10,6 +10,7 @@ scoreboard objectives remove dnd.timer
 scoreboard objectives remove dnd.carrotstick
 scoreboard objectives remove dnd.mine_sand
 scoreboard objectives remove dnd.mine_rsand
+scoreboard objectives remove dnd.fossil_pres
 
 ## Team
 team remove global.antivil
