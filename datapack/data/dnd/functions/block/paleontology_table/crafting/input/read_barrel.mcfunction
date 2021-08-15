@@ -17,23 +17,23 @@ execute if data block ~ ~ ~ Items[{Slot:21b}] run data modify storage dnd:storag
 execute if data block ~ ~ ~ Items[{Slot:22b}] run data modify storage dnd:storage root.temp.crafting_input_temp[2][2] set from block ~ ~ ~ Items[{Slot:22b}]
 
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:2b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][0].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][0].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:3b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][1].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][1].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:4b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][2].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[0][2].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:11b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][0].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][0].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:12b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][1].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][1].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:13b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][2].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[1][2].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:20b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][0].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][0].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:21b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][1].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][1].item_tag set value "#minecraft:planks"
 data modify entity @s HandItems[0] set from block ~ ~ ~ Items[{Slot:22b}]
-execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][2].id set value "#minecraft:planks"
+execute if predicate dnd:block/paleontology_table/tags/planks run data modify storage dnd:storage root.temp.crafting_input_temp[2][2].item_tag set value "#minecraft:planks"
 data remove entity @s HandItems[0]
 
 function dnd:block/paleontology_table/crafting/input/process

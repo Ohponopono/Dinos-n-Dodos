@@ -44,6 +44,12 @@
           "custom_model_data": 400009
         },
       "model": "dnd:item/amber_gemstone"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dnd:item/computer_chip"
     }
   ]
 }
