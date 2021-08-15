@@ -315,6 +315,8 @@
   "block.dnd.petrified_wood": "Petrified Wood",
   "block.dnd.chiseled_petrified_log": "Chiseled Petrified Log",
   "block.dnd.chiseled_petrified_wood": "Chiseled Petrified Wood",
+  "block.dnd.petrified_slab": "Petrified Slab",
+  "block.dnd.petrified_planks": "Petrified Planks",
   "block.dnd.projector": "Projector",
 
   "gui.dnd.block.cultivator": "\uc000\uc001\uc002%s",
