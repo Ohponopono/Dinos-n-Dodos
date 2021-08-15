@@ -23,19 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/acrocanthosaurus_fossil"
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/concavenator_fossil"
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/tyrannosaurus_fossil"
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:items/compsognathus_fossil"
+          "name": "dnd:gameplay/fossils/fractured_fossil"
         }
       ]
     }
