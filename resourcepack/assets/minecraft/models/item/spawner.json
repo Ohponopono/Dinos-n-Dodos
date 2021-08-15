@@ -57,6 +57,42 @@
 				"custom_model_data": 400009
 			},
 			"model": "dnd:block/petrified_wood/east_west"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:block/chiseled_petrified_log/up_down"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:block/chiseled_petrified_log/north_south"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:block/chiseled_petrified_log/east_west"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400013
+			},
+			"model": "dnd:block/chiseled_petrified_wood/up_down"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:block/chiseled_petrified_wood/north_south"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400015
+			},
+			"model": "dnd:block/chiseled_petrified_wood/east_west"
 		}
 	]
 }

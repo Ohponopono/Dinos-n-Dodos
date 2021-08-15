@@ -84,6 +84,18 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dnd:block/chiseled_petrified_log/up_down"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400015
+        },
+      "model": "dnd:block/chiseled_petrified_wood/up_down"
+    },
+    {
+        "predicate": {
           "custom_model_data": 401000
         },
       "model": "dnd:block/dinosaur_egg"

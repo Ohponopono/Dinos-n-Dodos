@@ -312,7 +312,8 @@
   "block.dnd.paleontology_table": "Paleontology Table",
   "block.dnd.petrified_log": "Petrified Log",
   "block.dnd.petrified_wood": "Petrified Wood",
-  "block.dnd.polished_petrified_log": "Polished Petrified Log",
+  "block.dnd.chiseled_petrified_log": "Chiseled Petrified Log",
+  "block.dnd.chiseled_petrified_wood": "Chiseled Petrified Wood",
   "block.dnd.projector": "Projector",
 
   "gui.dnd.block.cultivator": "\uc000\uc001\uc002%s",
