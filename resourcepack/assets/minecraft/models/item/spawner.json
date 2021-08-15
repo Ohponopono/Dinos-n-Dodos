@@ -93,6 +93,12 @@
 				"custom_model_data": 400015
 			},
 			"model": "dnd:block/chiseled_petrified_wood/east_west"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400016
+			},
+			"model": "dnd:block/polished_amber"
 		}
 	]
 }

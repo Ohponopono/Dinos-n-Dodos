@@ -96,6 +96,12 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400016
+        },
+      "model": "dnd:block/polished_amber"
+    },
+    {
+        "predicate": {
           "custom_model_data": 401000
         },
       "model": "dnd:block/dinosaur_egg"
