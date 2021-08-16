@@ -12,33 +12,9 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400001
-        },
-      "model": "dnd:block/genetic_extractor"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400002
         },
       "model": "dnd:block/genome_modifier"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400003
-        },
-      "model": "dnd:block/vat"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400004
-        },
-      "model": "dnd:block/blank"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400005
-        },
-      "model": "dnd:block/genetic_analyzer"
     },
     {
         "predicate": {

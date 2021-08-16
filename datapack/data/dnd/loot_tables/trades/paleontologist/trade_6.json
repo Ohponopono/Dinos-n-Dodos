@@ -27,7 +27,7 @@
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/genetic_extractor"
+          "name": "dnd:items/extractor"
         },
         {
           "type": "loot_table",

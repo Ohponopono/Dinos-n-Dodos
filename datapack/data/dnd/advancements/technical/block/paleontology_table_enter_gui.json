@@ -8,7 +8,7 @@
             "blocks": [
               "minecraft:barrel"
             ],
-            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:paleontology_table\",\"translate\":\"gui.dnd.block.paleontology_table\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.paleontology_table\"}]}'}"
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:gui\",\"translate\":\"block.dnd.paleontology_table.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.paleontology_table\"}]}'}"
           }
         }
       }

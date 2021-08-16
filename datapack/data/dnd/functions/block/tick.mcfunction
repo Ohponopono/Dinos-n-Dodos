@@ -6,7 +6,7 @@
 execute if entity @s[tag=dnd.egg_block] unless block ~ ~ ~ structure_void run function dnd:block/global/break
 
 ## Run ticking
-execute if entity @s[tag=dnd.barrel] run function dnd:block/global/tick
+execute if entity @s[tag=dnd.barrel] run function dnd:block/barrel/tick
 
 ## Fire
-execute if entity @s[tag=!dnd.egg_block] unless block ~ ~ ~ air run data merge entity @s {Fire:2s}
+execute if entity @s[tag=!dnd.egg_block] unless block ~ ~1 ~ air unless block ~ ~2 ~ air run data merge entity @s {Fire:2s}

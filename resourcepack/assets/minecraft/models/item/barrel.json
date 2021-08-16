@@ -6,6 +6,12 @@
         "custom_model_data": 400000
       },
       "model": "dnd:block/paleontology_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:block/extractor"
     }
   ]
 }

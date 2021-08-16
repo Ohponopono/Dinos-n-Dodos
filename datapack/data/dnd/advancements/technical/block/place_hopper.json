@@ -8,6 +8,6 @@
     }
   },
   "rewards": {
-    "function": "dnd:block/global/hopper_updating/advancement"
+    "function": "dnd:block/barrel/hopper_updating/advancement"
   }
 }

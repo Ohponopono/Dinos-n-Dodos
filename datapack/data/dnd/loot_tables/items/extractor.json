@@ -10,12 +10,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"paleontology_table\"}}}]},CustomModelData:400000,dnd:{id:\"paleontology_table\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"extractor\"}}}]},CustomModelData:400001,dnd:{id:\"extractor\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "block.dnd.paleontology_table",
+                "translate": "block.dnd.extractor",
                 "italic": false
               }
             },

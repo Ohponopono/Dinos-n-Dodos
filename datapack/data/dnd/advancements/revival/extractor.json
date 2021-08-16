@@ -6,10 +6,10 @@
       "nbt": "{CustomModelData:400001}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.genetic_extractor.title"
+      "translate": "advancements.dnd.revival.extractor.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.genetic_extractor.description"
+      "translate": "advancements.dnd.revival.extractor.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -17,11 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
+    "extractor": {
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"genetic_extractor\"}}}]}}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"extractor\"}}}]}}"
         }
       }
     }
