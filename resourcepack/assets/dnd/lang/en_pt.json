@@ -253,7 +253,6 @@
   "block.dnd.dna_extractor": "Extractor o' DNA",
   "block.dnd.genome_modifier": "Modifier o' Genes",
   "block.dnd.petrified_log": "Petrified Log",
-  "block.dnd.projector": "Hologram Crafter",
   "block.dnd.sifter": "Treasure Finderrr",
 
   "gui.dnd.block.analyzer": "\uc000\uc001\uc002%s",
@@ -261,7 +260,6 @@
   "gui.dnd.block.dna_combinator": "\uc000\uc001\uc002%s",
   "gui.dnd.block.dna_extractor": "\uc000\uc001\uc002%s",
   "gui.dnd.block.genome_modifier": "\uc000\uc001\uc002%s",
-  "gui.dnd.block.projector": "\uc000\uc001\uc002%s",
   "gui.dnd.block.sifter": "\uc000\uc001\uc002%s",
 
   "entity.dnd.acrocanthosaurus": "High-Spined Lizard",
@@ -282,7 +280,6 @@
   "subtitles.dnd.block.dna_combinator.function": "DNA Acquiescencer combinates",
   "subtitles.dnd.block.genome_modifier.function": "Modifier o' Genes modifies",
   "subtitles.dnd.block.cultivator.function": "Nourisher cultivates",
-  "subtitles.dnd.block.projector.function": "Hologram Crafter projects",
   "subtitles.dnd.baby_hatch": "Baby Dinosaur chirps",
   "subtitles.dnd.baby_ambient": "Baby Dinosaur cries",
   "subtitles.dnd.baby_hurt": "Baby Dinosaur hurts",
@@ -348,8 +345,6 @@
   "advancements.dnd.revival.modification.description": "Modify the genome of an organism.",
   "advancements.dnd.revival.nether_egg.title": "One Hell of a Time",
   "advancements.dnd.revival.nether_egg.description": "Place an in the Nether.",
-  "advancements.dnd.revival.projector.title": "Holograms",
-  "advancements.dnd.revival.projector.description": "Craft and place a Hologram Crafter.",
   "advancements.dnd.revival.amber.title": "60 Million Years in the Making",
   "advancements.dnd.revival.amber.description": "Discover your first piece of Amber.",
   "advancements.dnd.revival.petrified_log.title": "At First I was Afraid—",

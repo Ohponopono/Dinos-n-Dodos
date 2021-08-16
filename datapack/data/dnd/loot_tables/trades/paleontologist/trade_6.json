@@ -4,12 +4,34 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 60,
+                "max": 64
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
-          "name": "dnd:trades/paleontologist/trade_6/machine"
+          "name": "dnd:items/cultivator"
         },
         {
           "type": "loot_table",
-          "name": "dnd:trades/paleontologist/trade_6/display_device"
+          "name": "dnd:items/genetic_extractor"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/genome_modifier"
         }
       ]
     }
