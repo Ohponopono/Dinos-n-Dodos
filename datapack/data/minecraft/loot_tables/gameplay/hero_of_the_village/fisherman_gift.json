@@ -5,17 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:end_stone"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone"
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/eroded_fossil"
         }
       ],
       "conditions": [
