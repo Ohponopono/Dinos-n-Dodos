@@ -5,10 +5,10 @@
       "item": "minecraft:netherite_shovel"
     },
     "title": {
-      "translate": "advancements.dnd.revival.fossil_100.title"
+      "translate": "advancements.dnd.revival.fossil_5.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.fossil_100.description"
+      "translate": "advancements.dnd.revival.fossil_5.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -24,7 +24,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5}}"
           }
         ]
       }

@@ -6,10 +6,10 @@
       "nbt": "{CustomModelData:402004}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.fossil_collector_100.title"
+      "translate": "advancements.dnd.revival.fossil_collector_5.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.fossil_collector_100.description"
+      "translate": "advancements.dnd.revival.fossil_collector_5.description"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -25,7 +25,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:acrocanthosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:acrocanthosaurus\"}}}}"
           }
         ]
       }
@@ -38,7 +38,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:ankylosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:ankylosaurus\"}}}}"
           }
         ]
       }
@@ -51,7 +51,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:compsognathus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:compsognathus\"}}}}"
           }
         ]
       }
@@ -64,7 +64,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:concavenator\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:concavenator\"}}}}"
           }
         ]
       }
@@ -77,7 +77,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:corythosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:corythosaurus\"}}}}"
           }
         ]
       }
@@ -90,7 +90,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:gallimimus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:gallimimus\"}}}}"
           }
         ]
       }
@@ -103,7 +103,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:pachycephalosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:pachycephalosaurus\"}}}}"
           }
         ]
       }
@@ -116,7 +116,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:tyrannosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",accuracy:5,storage:{entity:{id:\"dnd:tyrannosaurus\"}}}}"
           }
         ]
       }

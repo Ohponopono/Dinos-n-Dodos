@@ -416,14 +416,14 @@
   "advancements.dnd.revival.paleontologist_armor.description": "Aquire a full set of Paleontologist Armor.",
   "advancements.dnd.revival.fossil.title": "One of a Kind",
   "advancements.dnd.revival.fossil.description": "Discover your first Fossil burried in sand.",
-  "advancements.dnd.revival.fossil_100.title": "One in a Billion",
-  "advancements.dnd.revival.fossil_100.description": "Find a fossil with an accuracy score of 100.",
+  "advancements.dnd.revival.fossil_5.title": "One in a Billion",
+  "advancements.dnd.revival.fossil_5.description": "Find an Accuracy V fossil.",
   "advancements.dnd.revival.amber.title": "60 Million Years in the Making",
   "advancements.dnd.revival.amber.description": "Discover your first piece of Amber.",
   "advancements.dnd.revival.petrified_log.title": "At First I was Afraid—",
   "advancements.dnd.revival.petrified_log.description": "—I was petrified. \nDiscover a Petrified Log.",
   "advancements.dnd.revival.fossil_collector.title": "Collector",
   "advancements.dnd.revival.fossil_collector.description": "Collect one fossil of every dinosaur.",
-  "advancements.dnd.revival.fossil_collector_100.title": "Master Collector",
-  "advancements.dnd.revival.fossil_collector_100.description": "Collect one fossil of every dinosaur with 100 accuracy."
+  "advancements.dnd.revival.fossil_collector_5.title": "Master Collector",
+  "advancements.dnd.revival.fossil_collector_5.description": "Collect one Accuracy V fossil of every dinosaur."
 }

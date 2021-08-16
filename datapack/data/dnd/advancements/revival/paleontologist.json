@@ -17,8 +17,13 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
-      "trigger": "minecraft:impossible"
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"dnd.paleontologist\"]}"
+        }
+      }
     }
   }
 }

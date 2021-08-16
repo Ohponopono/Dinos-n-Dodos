@@ -103,7 +103,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",storage:{accuracy:100,entity:{id:\"dnd:pachycephalosaurus\"}}}}"
+            "nbt": "{dnd:{id:\"fossil\",storage:{entity:{id:\"dnd:pachycephalosaurus\"}}}}"
           }
         ]
       }
