@@ -42,18 +42,6 @@
     },
     {
         "predicate": {
-          "custom_model_data": 400007
-        },
-      "model": "dnd:block/fossil_stand"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400008
-        },
-      "model": "dnd:block/projector"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400009
         },
       "model": "dnd:block/amber_block"

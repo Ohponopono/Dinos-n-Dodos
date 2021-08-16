@@ -13,7 +13,6 @@ Features
 + Added the Chisel
 + Added the Genetic Extractor
 + Added Upgrade Cartridges
-+ Added the Fossil Stand
 - Removed the DNA Combinator
 - Removed the DNA Extractor
 - Removed the Analyzer

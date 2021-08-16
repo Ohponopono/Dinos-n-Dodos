@@ -11,8 +11,6 @@
     "dnd:block/petrified_log/placement_check",
     "dnd:block/petrified_wood/placement_check",
     "dnd:block/chiseled_petrified_log/placement_check",
-    "dnd:block/chiseled_petrified_wood/placement_check",
-    "dnd:block/projector/placement_check",
-    "dnd:block/fossil_stand/placement_check"
+    "dnd:block/chiseled_petrified_wood/placement_check"
   ]
 }

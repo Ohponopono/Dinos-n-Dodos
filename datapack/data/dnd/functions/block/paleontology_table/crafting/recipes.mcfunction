@@ -12,8 +12,6 @@ execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if da
 # Genome Modifier
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:quartz_block",Slot:0b},{id:"minecraft:quartz_block",Slot:1b},{id:"minecraft:quartz_block",Slot:2b}],1:[{id:"minecraft:glass",Slot:0b},{id:"minecraft:comparator",Slot:1b},{id:"minecraft:glass",Slot:2b}],2:[{item_tag:"#minecraft:planks",Slot:0b},{tag:{dnd:{id:"computer_chip"}},Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/genome_modifier
 
-## Fossil Stand
-execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{item_tag:"#minecraft:planks",Slot:0b},{item_tag:"#minecraft:planks",Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}],1:[{item_tag:"#minecraft:planks",Slot:0b},{id:"minecraft:bone",Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}],2:[{item_tag:"#minecraft:planks",Slot:0b},{id:"minecraft:diamond",Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/fossil_stand
 
 # Amber Block
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{tag:{dnd:{id:"amber"}},Slot:0b},{tag:{dnd:{id:"amber"}},Slot:1b},{id:"minecraft:air",Slot:2b}],1:[{tag:{dnd:{id:"amber"}},Slot:0b},{tag:{dnd:{id:"amber"}},Slot:1b},{id:"minecraft:air",Slot:2b}],2:[]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/amber_block
