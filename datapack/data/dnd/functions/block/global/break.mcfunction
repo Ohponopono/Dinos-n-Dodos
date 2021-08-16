@@ -13,5 +13,8 @@ execute as @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/br
 # Paleontology Table
 execute as @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break/main
 
+# Undo hopper transfercooldown
+execute if entity @s[tag=dnd.barrel] run function dnd:block/global/hopper_updating/undo
+
 # Kill the resulting entity
 kill @s
