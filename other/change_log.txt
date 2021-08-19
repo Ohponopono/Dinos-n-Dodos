@@ -4,6 +4,7 @@ Features
 ~ Lots of optimization
 ~ Complete Paleontology Revamp
 ~ Updated the Genome Modifier
++ Added a variety of sounds
 + Added the Ankylosaurus
 + Added the Pachycephalosaurus
 + Added the Dodo

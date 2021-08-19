@@ -1,0 +1,89 @@
+{
+  "entity.dodo.idle": {
+    "sounds": [
+      "dnd:entity/dodo_idle1",
+      "dnd:entity/dodo_idle2"
+    ],
+    "subtitle": "subtitles.dnd.dodo.idle"
+  },
+  "entity.dodo.death": {
+    "sounds": [
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.2
+      },
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.5
+      },
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.8
+      }
+    ],
+    "volume": 2,
+    "subtitle": "subtitles.dnd.dodo.death"
+  },
+  "entity.dodo.hurt": {
+    "sounds": [
+      "dnd:entity/dodo_hurt1",
+      "dnd:entity/dodo_hurt2"
+    ],
+    "subtitle": "subtitles.dnd.dodo.hurt"
+  },
+  "entity.acrocanthosaurus.idle": {
+    "sounds": [
+      "dnd:entity/dinosaur/carnivore_bellow1",
+      "dnd:entity/dinosaur/carnivore_bellow2",
+      "dnd:entity/dinosaur/carnivore_bellow3"
+    ],
+    "subtitle": "subtitles.dnd.acrocanthosaurus.idle"
+  },
+  "entity.compsognathus.idle": {
+    "sounds": [
+      {
+        "name": "dnd:entity/dinosaur/carnivore_chirp1",
+        "pitch": 1.9
+      },
+      {
+        "name": "dnd:entity/dinosaur/carnivore_chirp2",
+        "pitch": 1.2
+      },
+      {
+        "name": "dnd:entity/dinosaur/carnivore_chirp3",
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.dnd.compsognathus.idle"
+  },
+  "entity.concavenator.idle": {
+    "sounds": [
+      {
+        "name": "dnd:entity/dinosaur/carnivore_snarl1",
+        "pitch": 0.1
+      },
+      {
+        "name": "dnd:entity/dinosaur/carnivore_snarl2",
+        "pitch": 0.3
+      },
+      {
+        "name": "dnd:entity/dinosaur/carnivore_snarl3",
+        "pitch": 0.2
+      },
+      {
+        "name": "dnd:entity/dinosaur/carnivore_bellow1",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dnd.concavenator.idle"
+  },
+  "entity.tyrannosaurus.idle": {
+    "sounds": [
+      "dnd:entity/dinosaur/carnivore_bellow1",
+      "dnd:entity/dinosaur/carnivore_bellow2",
+      "dnd:entity/dinosaur/carnivore_bellow3"
+    ],
+    "pitch": 0.5,
+    "subtitle": "subtitles.dnd.tyrannosaurus.idle"
+  }
+}
