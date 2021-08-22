@@ -11,7 +11,7 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": "Billy",
+              "name": "Janet",
               "conditions": [
                 {
                   "condition": "minecraft:random_chance",
