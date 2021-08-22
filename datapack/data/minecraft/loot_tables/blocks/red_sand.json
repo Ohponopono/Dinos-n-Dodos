@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/main",
+              "name": "dnd:gameplay/paleontology/sand/main",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",

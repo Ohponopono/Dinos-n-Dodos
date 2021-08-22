@@ -8,7 +8,7 @@
           "children": [
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/6",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/6",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -23,7 +23,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/5",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/5",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -38,7 +38,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/4",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/4",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -53,7 +53,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/3",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/3",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -68,7 +68,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/2",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/2",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -83,7 +83,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/1",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/1",
               "conditions": [
                 {
                   "condition": "minecraft:entity_scores",
@@ -98,7 +98,7 @@
             },
             {
               "type": "minecraft:loot_table",
-              "name": "dnd:gameplay/paleontology/fossil_preservation/0"
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/0"
             }
           ]
         }

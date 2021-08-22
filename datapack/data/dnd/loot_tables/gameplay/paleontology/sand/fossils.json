@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dnd:gameplay/paleontology/dino_fossils",
+          "name": "dnd:gameplay/paleontology/sand/dino_fossils",
           "weight": 4
         },
         {

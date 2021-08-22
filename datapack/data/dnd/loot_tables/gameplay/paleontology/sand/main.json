@@ -6,17 +6,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 80,
-          "name": "dnd:gameplay/paleontology/junk"
+          "name": "dnd:gameplay/paleontology/sand/junk"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 19,
-          "name": "dnd:gameplay/paleontology/fossils"
+          "name": "dnd:gameplay/paleontology/sand/fossils"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
-          "name": "dnd:gameplay/paleontology/treasure"
+          "name": "dnd:gameplay/paleontology/sand/treasure"
         }
       ],
       "conditions": [
@@ -34,17 +34,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 70,
-          "name": "dnd:gameplay/paleontology/junk"
+          "name": "dnd:gameplay/paleontology/sand/junk"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 28,
-          "name": "dnd:gameplay/paleontology/fossils"
+          "name": "dnd:gameplay/paleontology/sand/fossils"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "dnd:gameplay/paleontology/treasure"
+          "name": "dnd:gameplay/paleontology/sand/treasure"
         }
       ],
       "conditions": [
@@ -62,17 +62,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 60,
-          "name": "dnd:gameplay/paleontology/junk"
+          "name": "dnd:gameplay/paleontology/sand/junk"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 37,
-          "name": "dnd:gameplay/paleontology/fossils"
+          "name": "dnd:gameplay/paleontology/sand/fossils"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "dnd:gameplay/paleontology/treasure"
+          "name": "dnd:gameplay/paleontology/sand/treasure"
         }
       ],
       "conditions": [
@@ -90,17 +90,17 @@
         {
           "type": "minecraft:loot_table",
           "weight": 50,
-          "name": "dnd:gameplay/paleontology/junk"
+          "name": "dnd:gameplay/paleontology/sand/junk"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 46,
-          "name": "dnd:gameplay/paleontology/fossils"
+          "name": "dnd:gameplay/paleontology/sand/fossils"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 4,
-          "name": "dnd:gameplay/paleontology/treasure"
+          "name": "dnd:gameplay/paleontology/sand/treasure"
         }
       ],
       "conditions": [
