@@ -2,14 +2,14 @@
   "parent": "dnd:revival/extractor",
   "display": {
     "icon": {
-      "item": "minecraft:furnace",
-      "nbt": "{CustomModelData:400002}"
+      "item": "minecraft:barrel",
+      "nbt": "{CustomModelData:400003}"
     },
     "title": {
-      "translate": "advancements.dnd.revival.genome_modifier.title"
+      "translate": "advancements.dnd.revival.modifier.title"
     },
     "description": {
-      "translate": "advancements.dnd.revival.genome_modifier.description"
+      "translate": "advancements.dnd.revival.modifier.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -17,11 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
+    "placed_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
           "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"genome_modifier\"}}}]}}"
+              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"modifier\"}}}]}}"
         }
       }
     }

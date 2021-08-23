@@ -6,18 +6,6 @@
   "overrides": [
     {
         "predicate": {
-          "custom_model_data": 400000
-        },
-      "model": "dnd:block/cultivator"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400002
-        },
-      "model": "dnd:block/genome_modifier"
-    },
-    {
-        "predicate": {
           "custom_model_data": 400009
         },
       "model": "dnd:block/amber_block"

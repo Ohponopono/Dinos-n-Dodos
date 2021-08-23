@@ -12,6 +12,18 @@
         "custom_model_data": 400001
       },
       "model": "dnd:block/extractor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:block/cultivator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:block/modifier"
     }
   ]
 }

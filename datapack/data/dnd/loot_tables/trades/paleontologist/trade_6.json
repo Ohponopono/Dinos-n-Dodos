@@ -31,7 +31,7 @@
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/genome_modifier"
+          "name": "dnd:items/modifier"
         }
       ]
     }

@@ -12,7 +12,7 @@ execute if entity @s[tag=dnd.cultivator] run function dnd:block/cultivator/break
 # Extractor
 execute if entity @s[tag=dnd.extractor] run function dnd:block/extractor/break
 # Genome Modifier
-execute if entity @s[tag=dnd.genome_modifier] run function dnd:block/genome_modifier/break
+execute if entity @s[tag=dnd.modifier] run function dnd:block/modifier/break
 # Paleontology Table
 execute if entity @s[tag=dnd.paleontology_table] run function dnd:block/paleontology_table/break
 

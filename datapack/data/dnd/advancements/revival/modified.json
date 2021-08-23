@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/genome_modifier",
+  "parent": "dnd:revival/modifier",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",

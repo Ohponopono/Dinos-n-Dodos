@@ -26,12 +26,26 @@
           }
         }
       }
+    },
+    "click_modifier": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:gui\",\"translate\":\"block.dnd.modifier.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.modifier\"}]}'}"
+          }
+        }
+      }
     }
   },
   "requirements": [
     [
       "click_cultivator",
-      "click_extractor"
+      "click_extractor",
+      "click_modifier"
     ]
   ],
   "rewards": {
