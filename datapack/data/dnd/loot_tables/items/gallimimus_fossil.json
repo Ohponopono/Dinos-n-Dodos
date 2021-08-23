@@ -31,8 +31,8 @@
                 },
                 "",
                 {
-                  "translate": "config.dnd.name",
-                  "color": "#63E2FF",
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
                   "italic": true
                 }
               ]

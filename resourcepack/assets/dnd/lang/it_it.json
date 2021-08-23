@@ -1,6 +1,6 @@
 {
   "item.minecraft.knowledge_book": "Clicca per fabbricarlo",
-  "config.dnd.name": "Dinos & Dodos",
+  "pack.dnd": "Dinos & Dodos",
   "config.dnd.nonoperational": "Questo oggetto non è funzionante al momento",
   "config.dnd.version": "[1.0.4]",
   "reload.dnd.success": "[Dinos & Dodos] Ricaricato!",
