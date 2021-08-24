@@ -17,3 +17,4 @@ data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Name set from block ~ ~ ~ 
 # Genetically Modified
 execute if data block ~ ~ ~ Items[{Slot:3b}].tag.dnd.storage.modified run data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Lore[0] set value '{"italic":false,"color":"gray","translate":"lore.dnd.item.modified.genetic"}'
 execute if data block ~ ~ ~ Items[{Slot:3b}].tag.dnd.storage.modified run data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Lore append value '{"italic":true,"color":"#FFAA00","translate":"pack.dnd"}'
+scoreboard players set @s dnd.dummy 1

@@ -9,3 +9,4 @@ data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Lore[1] set from storage d
 data modify block ~ ~ ~ Items[{Slot:14b}].tag.dnd.storage set from storage dnd:storage root.temp.genome.id
 ## Yellow Name
 function dnd:block/global/yellow_name/dna_vial
+scoreboard players set @s dnd.dummy 1

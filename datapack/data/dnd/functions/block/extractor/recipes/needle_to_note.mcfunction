@@ -11,3 +11,4 @@ data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Lore set from block ~ ~ ~ 
 function dnd:block/global/yellow_name/genetic_note
 
 tag @s add dnd.extractor.needle_output
+scoreboard players set @s dnd.dummy 1
