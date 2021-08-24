@@ -2,5 +2,7 @@
 # Recipes for crafting
 ####################
 
-# Test recipe
-execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if block ~ ~ ~ barrel{Items:[{Slot:3b,id:"minecraft:sand"},{Slot:21b,id:"minecraft:stone"}]} run loot replace block ~ ~ ~ container.14 loot dnd:items/amber
+execute if block ~ ~ ~ barrel{Items:[{Slot:3b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100,entity:{eggData:{hasEgg:1b,CustomEgg:1b,id:"embryo_needle"}}}}}},{Slot:21b,id:"minecraft:milk_bucket"}]} run function dnd:block/cultivator/recipes/dna_to_needle
+execute if block ~ ~ ~ barrel{Items:[{Slot:3b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100,entity:{eggData:{hasEgg:1b,CustomEgg:1b,id:"egg_item"}}}}}},{Slot:21b,id:"minecraft:milk_bucket"}]} run function dnd:block/cultivator/recipes/dna_to_egg
+execute if block ~ ~ ~ barrel{Items:[{Slot:3b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100,entity:{eggData:{hasEgg:1b,CustomEgg:1b,id:"egg_block"}}}}}},{Slot:21b,id:"minecraft:milk_bucket"}]} run function dnd:block/cultivator/recipes/dna_to_block
+execute if block ~ ~ ~ barrel{Items:[{Slot:3b,tag:{dnd:{id:"dna_vial",storage:{accuracy:100,entity:{eggData:{hasEgg:1b,CustomEgg:0b}}}}}},{Slot:21b,id:"minecraft:milk_bucket"}]} run function dnd:block/cultivator/recipes/dna_to_item

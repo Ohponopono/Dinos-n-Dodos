@@ -1,0 +1,8 @@
+{
+  "values": [
+    "dnd:block/extractor/recipes/correlation/building_blocks",
+    "dnd:block/extractor/recipes/correlation/decoration_blocks",
+    "dnd:block/extractor/recipes/correlation/foodstuffs",
+    "dnd:block/extractor/recipes/correlation/miscellaneous"
+  ]
+}
