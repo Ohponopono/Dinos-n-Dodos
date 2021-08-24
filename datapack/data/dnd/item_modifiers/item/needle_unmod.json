@@ -21,14 +21,6 @@
         "text": "f"
       },
       {
-        "translate": "lore.dnd.item.accuracy",
-        "with": [
-          100
-        ],
-        "color": "gray",
-        "italic": false
-      },
-      {
         "translate": "pack.dnd",
         "color": "#FFAA00",
         "italic": true
