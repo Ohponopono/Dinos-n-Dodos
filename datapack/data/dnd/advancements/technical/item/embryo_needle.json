@@ -138,10 +138,10 @@
               }
             }
           }
+        },
+        "entity": {
+          "type": "#dnd:identifier/mystery"
         }
-      },
-      "entity": {
-        "type": "#dnd:identifier/mystery"
       }
     },
     "primate": {
@@ -156,10 +156,10 @@
               }
             }
           }
+        },
+        "entity": {
+          "type": "#dnd:identifier/primate"
         }
-      },
-      "entity": {
-        "type": "#dnd:identifier/primate"
       }
     },
     "reptile": {
@@ -174,10 +174,10 @@
               }
             }
           }
+        },
+        "entity": {
+          "type": "#dnd:identifier/reptile"
         }
-      },
-      "entity": {
-        "type": "#dnd:identifier/reptile"
       }
     }
   },
