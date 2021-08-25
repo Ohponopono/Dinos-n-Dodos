@@ -39,6 +39,8 @@ execute if entity @s[type=strider] run data modify storage dnd:storage root.temp
 execute if entity @s[type=enderman] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:enderman",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.enderman_vat"}'}}
 # Iron Golem
 execute if entity @s[type=iron_golem] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:iron_golem",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.iron_golem_vat"}'}}
+# Creeper
+execute if entity @s[type=creeper] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:creeper",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.creeper_vat"}'}}
 # Blaze
 execute if entity @s[type=blaze] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:blaze",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.blaze_vat"}'}}
 # Drowned

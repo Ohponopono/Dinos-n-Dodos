@@ -12,6 +12,8 @@ execute if data storage dnd:storage root.temp.genome{id:"minecraft:bat"} run sum
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:cat"} run summon cat ~ ~0.1 ~ {Tags:["dnd.newly_spawned_clone"]}
 # Cow
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:cow"} run summon cow ~ ~0.1 ~ {Tags:["dnd.newly_spawned_clone"]}
+# Creeper
+execute if data storage dnd:storage root.temp.genome{id:"minecraft:creeper"} run summon creeper ~ ~0.1 ~ {Tags:["dnd.newly_spawned_clone"]}
 # Donkey
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:donkey"} run summon donkey ~ ~0.1 ~ {Tags:["dnd.newly_spawned_clone"]}
 # Fox
