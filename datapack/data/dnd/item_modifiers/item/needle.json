@@ -7,8 +7,8 @@
     },
     "ops": [
       {
-        "source": "root.temp.id",
-        "target": "dnd",
+        "source": "root.temp.item.tag",
+        "target": "{}",
         "op": "merge"
       }
     ]
@@ -18,13 +18,28 @@
     "entity": "this",
     "lore": [
       {
-        "text": "f"
+        "translate": "lore.dnd.structure",
+        "color": "gray",
+        "italic": false,
+        "with": [
+          {
+            "selector": "@s"
+          }
+        ]
       },
       {
-        "translate": "lore.dnd.item.modified.genetic",
+        "translate": "lore.dnd.identifier",
         "color": "gray",
-        "italic": false
+        "italic": false,
+        "with": [
+          {
+            "nbt": "root.temp.identifier[1]",
+            "storage": "dnd:storage",
+            "interpret": true
+          }
+        ]
       },
+      "",
       {
         "translate": "pack.dnd",
         "color": "#FFAA00",
@@ -32,20 +47,6 @@
       }
     ],
     "replace": true
-  },
-  {
-    "function": "minecraft:copy_nbt",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "dnd:storage"
-    },
-    "ops": [
-      {
-        "source": "root.temp.structureLore[]",
-        "target": "display.Lore[0]",
-        "op": "replace"
-      }
-    ]
   },
   {
     "function": "minecraft:set_nbt",

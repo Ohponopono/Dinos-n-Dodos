@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:401001,dnd:{id:\"egg_item\",storage:{dna:{id:\"minecraft:mystery\",identifier:\"minecraft:mystery\",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}}"
+              "tag": "{CustomModelData:401001,dnd:{id:\"egg_item\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -19,16 +19,17 @@
                 "translate": "item.dnd.acrocanthosaurus_egg",
                 "color": "white",
                 "italic": false
-                      }
+              }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
-                      {
-                "translate": "pack.dnd",
-                "color": "#FFAA00",
-                "italic": true
-                      }]
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
             }
           ]
         }

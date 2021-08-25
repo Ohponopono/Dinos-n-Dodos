@@ -3,93 +3,63 @@
 ####################
 
 ### Store entity data
-# Set to Base Data
-data modify storage dnd:storage root.temp.id set value {id:"dna_needle",storage:{dna:{RegenRate:0,produce:{Primary:{id:"blank",Count:0b},Secondary:{id:"blank",Count:0b}}},entity:{id:"minecraft:unknown",identifier:"minecraft:mystery",CustomEntity:0,genome:{},UniqueData:{},eggData:{hasEgg:0b}}}}
-# Find Identifier
-execute if entity @s[tag=!global.ignore,tag=!dnd.needlable] run function #dnd:item/needle_correlation_vanilla
-execute if entity @s[tag=!global.ignore,tag=dnd.needlable] run function #dnd:item/needle_correlation_custom
-# Test if entity already modified
-execute if entity @s[tag=dnd.modified] run data modify storage dnd:storage root.temp.id.storage.modified set value 1
-## Grab Genome
-# Armor
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor double 1 run attribute @s minecraft:generic.armor get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor
-# Armor Toughness
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.armor_toughness double 1 run attribute @s minecraft:generic.armor_toughness get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{armor_toughness:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.armor_toughness
-# Attack Damage
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_damage double 1 run attribute @s minecraft:generic.attack_damage get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_damage:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_damage
-# Attack Knockback
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_knockback double 1 run attribute @s minecraft:generic.attack_knockback get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_knockback:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_knockback
-# Attack Speed
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.attack_speed double 1 run attribute @s minecraft:generic.attack_speed get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{attack_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.attack_speed
-# Flying Speed
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.flying_speed double 1 run attribute @s minecraft:generic.flying_speed get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{flying_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.flying_speed
-# Follow Range
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.follow_range double 1 run attribute @s minecraft:generic.follow_range get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{follow_range:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.follow_range
-# Knockback Resistance
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.knockback_resistance double 1 run attribute @s minecraft:generic.knockback_resistance get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{knockback_resistance:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.knockback_resistance
-# Luck
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.luck double 1 run attribute @s minecraft:generic.luck get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{luck:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.luck
-# Max Health
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.max_health double 1 run attribute @s minecraft:generic.max_health get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{max_health:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.max_health
-# Movement Speed
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.movement_speed double 1 run attribute @s minecraft:generic.movement_speed get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{movement_speed:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.movement_speed
-# Horse Jump
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.horse_jump double 1 run attribute @s minecraft:horse.jump_strength get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{horse_jump:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.horse_jump
-# Zombie Reinforcements
-execute store result storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements double 1 run attribute @s minecraft:zombie.spawn_reinforcements get
-execute if data storage dnd:storage root.temp.id.storage.entity.genome{zombie_reinforcements:0.0} run data remove storage dnd:storage root.temp.id.storage.entity.genome.zombie_reinforcements
-## add UniqueData
+# Set item tag to dna_needle
+data modify storage dnd:storage root.temp.item.tag set value {dnd:{id:"dna_needle"}}
+
+## Egg Data
+function dnd:item/needle/set_egg_data
+
+## Identifiers
+function dnd:item/needle/set_identifier
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.identifier set from storage dnd:storage root.temp.identifier[0]
+
+## Copying over entity data
+
+# Attributes
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes set from entity @s Attributes
+
 # Universal
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.NoGravity set from entity @s NoGravity
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Silent set from entity @s Silent
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Invulnerable set from entity @s Invulnerable
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Glowing set from entity @s Glowing
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CustomNameVisible set from entity @s CustomNameVisible
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.LeftHanded set from entity @s LeftHanded
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.FallFlying set from entity @s FallFlying
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.PersistenceRequired set from entity @s PersistenceRequired
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CanPickUpLoot set from entity @s CanPickUpLoot
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CustomName set from entity @s CustomName
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Owner set from entity @s Owner
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.DeathLootTable set from entity @s DeathLootTable
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Size set from entity @s Size
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Color set from entity @s Color
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.NoGravity set from entity @s NoGravity
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Silent set from entity @s Silent
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Invulnerable set from entity @s Invulnerable
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Glowing set from entity @s Glowing
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CustomNameVisible set from entity @s CustomNameVisible
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.LeftHanded set from entity @s LeftHanded
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.FallFlying set from entity @s FallFlying
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.PersistenceRequired set from entity @s PersistenceRequired
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CanPickUpLoot set from entity @s CanPickUpLoot
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CustomName set from entity @s CustomName
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Owner set from entity @s Owner
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.DeathLootTable set from entity @s DeathLootTable
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Size set from entity @s Size
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Color set from entity @s Color
 # Ridable
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Tame set from entity @s Tame
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Temper set from entity @s Temper
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Strength set from entity @s Strength
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Tame set from entity @s Tame
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Temper set from entity @s Temper
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Strength set from entity @s Strength
 # Variants
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Variant set from entity @s Variant
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CatType set from entity @s CatType
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Type set from entity @s Type
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Variant set from entity @s Variant
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CatType set from entity @s CatType
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Type set from entity @s Type
 # Zombies
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.IsBaby set from entity @s IsBaby
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CanBreakDoors set from entity @s CanBreakDoors
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsBaby set from entity @s IsBaby
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CanBreakDoors set from entity @s CanBreakDoors
 # Creeper
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.Fuse set from entity @s Fuse
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.ExplosionRadius set from entity @s ExplosionRadius
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Fuse set from entity @s Fuse
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.ExplosionRadius set from entity @s ExplosionRadius
 # Hoglin/Piglin
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.CannotBeHunted set from entity @s CannotBeHunted
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.IsImmuneToZombification set from entity @s IsImmuneToZombification
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CannotBeHunted set from entity @s CannotBeHunted
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsImmuneToZombification set from entity @s IsImmuneToZombification
 # Mooshroom
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.EffectID set from entity @s EffectID
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.EffectDuration set from entity @s EffectDuration
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.EffectID set from entity @s EffectID
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.EffectDuration set from entity @s EffectDuration
 # Panda
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.MainGene set from entity @s MainGene
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.HiddenGene set from entity @s HiddenGene
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.MainGene set from entity @s MainGene
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.HiddenGene set from entity @s HiddenGene
 # Goat
-data modify storage dnd:storage root.temp.id.storage.entity.UniqueData.IsScreamingGoat set from entity @s IsScreamingGoat
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsScreamingGoat set from entity @s IsScreamingGoat
+
+item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle
+
 # Scoreboard
 scoreboard players set temp_0 dnd.dummy 1
