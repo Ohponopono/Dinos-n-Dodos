@@ -70,8 +70,8 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:grass"}] run data modif
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:fern"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.fern"}]}'],genome:{id:"minecraft:fern",identifier:"plant",egg_data:{type:"item",id:"minecraft:fern"}}}
 ## azalea
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:azalea"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.azalea"}]}'],genome:{id:"minecraft:azalea",identifier:"plant",egg_data:{type:"item",id:"minecraft:azalea"}}}
-## flowering_azalea
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:azalea"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.azalea"}]}'],genome:{id:"minecraft:azalea",identifier:"plant",egg_data:{type:"item",id:"minecraft:azalea"}}}
+## azalea
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:flowering_azalea"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.azalea"}]}'],genome:{id:"minecraft:azalea",identifier:"plant",egg_data:{type:"item",id:"minecraft:azalea"}}}
 ## seagrass
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:seagrass"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.seagrass"}]}'],genome:{id:"minecraft:seagrass",identifier:"plant",egg_data:{type:"item",id:"minecraft:seagrass"}}}
 ## sea_pickle
@@ -140,16 +140,16 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:small_dripleaf"}] run d
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:bamboo"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.bamboo"}]}'],genome:{id:"minecraft:bamboo",identifier:"plant",egg_data:{type:"item",id:"minecraft:bamboo"}}}
 ## chorus_fruit
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:chorus_fruit"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.chorus_flower"}]}'],genome:{id:"minecraft:chorus_flower",identifier:"plant",egg_data:{type:"item",id:"minecraft:chorus_flower"}}}
-## popped_chorus_fruit
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:popped_chorus_fruit"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.chorus_flower"}]}'],genome:{id:"minecraft:chorus_flower",identifier:"plant",egg_data:{type:"item",id:"minecraft:chorus_flower"}}}
+## chorus_plant
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:chorus_plant"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.chorus_flower"}]}'],genome:{id:"minecraft:chorus_flower",identifier:"plant",egg_data:{type:"item",id:"minecraft:chorus_flower"}}}
 ## chorus_flower
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:chorus_flower"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.chorus_flower"}]}'],genome:{id:"minecraft:chorus_flower",identifier:"plant",egg_data:{type:"item",id:"minecraft:chorus_flower"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:chorus_flower"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.chorus_flower"}]}'],genome:{id:"minecraft:chorus_flower",identifier:"plant",egg_data:{type:"item",id:"minecraft:chorus_flower"}}}
 ## cactus
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:cactus"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.cactus"}]}'],genome:{id:"minecraft:cactus",identifier:"plant",egg_data:{type:"item",id:"minecraft:cactus"}}}
 ## brown_mushroom_block
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:brown_mushroom"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.brown_mushroom"}]}'],genome:{id:"minecraft:brown_mushroom",identifier:"fungus",egg_data:{type:"item",id:"minecraft:brown_mushroom"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:brown_mushroom_block"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.brown_mushroom"}]}'],genome:{id:"minecraft:brown_mushroom",identifier:"fungus",egg_data:{type:"item",id:"minecraft:brown_mushroom"}}}
 ## red_mushroom_block
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:red_mushroom"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.red_mushroom"}]}'],genome:{id:"minecraft:red_mushroom",identifier:"fungus",egg_data:{type:"item",id:"minecraft:red_mushroom"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:red_mushroom_block"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.red_mushroom"}]}'],genome:{id:"minecraft:red_mushroom",identifier:"fungus",egg_data:{type:"item",id:"minecraft:red_mushroom"}}}
 ## vine
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:vine"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.vine"}]}'],genome:{id:"minecraft:vine",identifier:"plant",egg_data:{type:"item",id:"minecraft:vine"}}}
 ## glow_lichen
@@ -167,7 +167,7 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:peony"}] run data modif
 ## tall_grass
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:tall_grass"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.grass"}]}'],genome:{id:"minecraft:grass",identifier:"plant",egg_data:{type:"item",id:"minecraft:grass"}}}
 ## large_fern
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:fern"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.fern"}]}'],genome:{id:"minecraft:fern",identifier:"plant",egg_data:{type:"item",id:"minecraft:fern"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:large_fern"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.fern"}]}'],genome:{id:"minecraft:fern",identifier:"plant",egg_data:{type:"item",id:"minecraft:fern"}}}
 ## tube_coral
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:tube_coral"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.tube_coral"}]}'],genome:{id:"minecraft:tube_coral",identifier:"coral",egg_data:{type:"item",id:"minecraft:tube_coral"}}}
 ## brain_coral
@@ -191,13 +191,13 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:horn_coral_fan"}] run d
 ## apple
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:apple"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"lore.dnd.structure.oak_tree"}]}'],genome:{id:"minecraft:oak_sapling",identifier:"plant",egg_data:{type:"item",id:"minecraft:oak_sapling"}}}
 ## melon_slice
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:melon_slice"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.melon_seeds"}]}'],genome:{id:"minecraft:melon_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:melon_seeds"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:melon_slice"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.melon"}]}'],genome:{id:"minecraft:melon_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:melon_seeds"}}}
 ## carrot
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:carrot"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.carrot"}]}'],genome:{id:"minecraft:carrot",identifier:"plant",egg_data:{type:"item",id:"minecraft:carrot"}}}
 ## potato
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:potato"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.potato"}]}'],genome:{id:"minecraft:potato",identifier:"plant",egg_data:{type:"item",id:"minecraft:potato"}}}
 ## beetroot
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:beetroot"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.beetroot_seeds"}]}'],genome:{id:"minecraft:beetroot_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:beetroot_seeds"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:beetroot"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.beetroot"}]}'],genome:{id:"minecraft:beetroot_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:beetroot_seeds"}}}
 ## sweet_berries
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:sweet_berries"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.sweet_berry_bush"}]}'],genome:{id:"minecraft:sweet_berries",identifier:"plant",egg_data:{type:"item",id:"minecraft:sweet_berries"}}}
 ## glow_berries
@@ -215,7 +215,7 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:melon_seeds"}] run data
 ## nether_wart
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:nether_wart"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.nether_wart"}]}'],genome:{id:"minecraft:nether_wart",identifier:"plant",egg_data:{type:"item",id:"minecraft:nether_wart"}}}
 ## beetroot_seeds
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:beetroot_seeds"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.beetroot_seeds"}]}'],genome:{id:"minecraft:beetroot_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:beetroot_seeds"}}}
+execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:beetroot_seeds"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"item.minecraft.beetroot"}]}'],genome:{id:"minecraft:beetroot_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:beetroot_seeds"}}}
 
 # Modify identifiers
 execute if data storage dnd:storage root.temp.item_to_dna_data.genome{identifier:"coral"} run data modify storage dnd:storage root.temp.item_to_dna_data.lore append value '{"translate":"lore.dnd.identifier","color":"gray","italic":false,"with":[{"translate":"lore.dnd.identifier.coral"}]}'
