@@ -17,7 +17,6 @@ team add global.antivil
 
 ## Schedule
 schedule function dnd:technical/ten_second_clock 10s replace
-schedule function dnd:technical/five_second_clock 5s replace
 schedule function dnd:technical/second_clock 1s replace
 
 ## Set Config

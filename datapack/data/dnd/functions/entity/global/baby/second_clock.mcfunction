@@ -8,7 +8,7 @@ execute if entity @e[tag=dnd.entity,tag=!global.ignore,distance=3..24,nbt={Armor
 
 ## Commands
 # Remove Tick of Age
-execute store result score input_1 dnd.math run data get entity @s ArmorItems[3].tag.dnd.storage.Age
-execute store result entity @s ArmorItems[3].tag.dnd.storage.Age int 1 run scoreboard players add input_1 dnd.math 10
+execute store result score input_1 dnd.math run data get entity @s ArmorItems[3].tag.dnd.age
+execute store result entity @s ArmorItems[3].tag.dnd.age int 1 run scoreboard players add input_1 dnd.math 10
 # Remove Baby Tag
 execute if score input_1 dnd.math matches 0.. run tag @s remove dnd.baby
