@@ -8,7 +8,7 @@
           "tag": "dnd:meat"
         },
         "entity": {
-          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{baby_feed_item:\"dnd:meat\"}}}]}"
+          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{genome:{custom_entity_data:{baby_feed_item:\"dnd:meat\"}}}}}]}"
         }
       }
     },
@@ -19,7 +19,7 @@
           "tag": "dnd:plant"
         },
         "entity": {
-          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{baby_feed_item:\"dnd:plant\"}}}]}"
+          "nbt": "{Tags:[\"dnd.baby\"],ArmorItems:[{},{},{},{tag:{dnd:{genome:{custom_entity_data:{baby_feed_item:\"dnd:plant\"}}}}}]}"
         }
       }
     },
