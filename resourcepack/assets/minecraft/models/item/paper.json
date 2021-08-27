@@ -9,6 +9,12 @@
 				"custom_model_data": 400000
 			},
 			"model": "dnd:item/genetic_note"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/genetic_schematic"
 		}
 	]
 }
