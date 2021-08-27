@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,dnd:{id:\"frozen_meat\",accuracy:5,storage:{entity:{id:\"dnd:dodo\",identifier:\"minecraft:bird\",CustomEntity:1,genome:{movement_speed:0.3d,max_health:12.0d,follow_range:16.0d},UniqueData:{},eggData:{hasEgg:1b,CustomEgg:1b,Age:-24000,id:\"egg_item\",CustomModelData:401002,eggName:['{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.dodo_egg\"}'],CustomEntityData:{BabyFeedItem:\"dnd:plant\",Tags:[\"dnd.dodo\",\"dnd.bird\",\"dnd.needlable\",\"dnd.passive\"],DeathLootTable:\"dnd:entity/dodo\",EntityID:\"dnd:dodo\",EntityType:\"wandering_trader\",Models:{adult:{idle:400033,walking:400034},baby:{idle:400035,walking:400036},fossil:{skull:400034,stiff:400035,posed:400036}}}}}}}}"
+              "tag": "{CustomModelData:400004,dnd:{id:\"dna_vial\",type:\"frozen_meat\",accuracy:5,genome:{id:\"dnd:dodo\",identifier:\"bird\",unique_data:{Attributes:[{Base:0.3d,Name:\"minecraft:generic.movement_speed\"},{Base:12.0d,Name:\"minecraft:generic.max_health\"}],Health:12.0f,DeathLootTable:\"dnd:entity/dodo\",CustomName:'{\"translate\":\"entity.dnd.dodo\"}',Tags:[\"dnd.dodo\",\"dnd.bird\",\"dnd.passive\"]},custom_entity_data:{baby_feed_item:\"dnd:plant\",models:{adult:[400033,400034],baby:[400035,400036],fossil:[400034,400035,400036]}},egg_data:{type:\"egg_item\",CustomModelData:401002,name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.dodo_egg\"}'}}}}"
             },
             {
               "function": "minecraft:set_name",
