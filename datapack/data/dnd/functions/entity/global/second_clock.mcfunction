@@ -2,7 +2,7 @@
 # Global Entity Second Clock
 ####################
 
-effect give @s invisibility 100 0 true
+effect give @s minecraft:invisibility 1000000 0 true
 data remove entity @s Offers.Recipes
 execute if data entity @s ActiveEffects[{Id:24b}] run data modify entity @s Glowing set value 1b
 execute if entity @s[nbt={Glowing:1b}] unless data entity @s ActiveEffects[{Id:24b}] run data modify entity @s Glowing set value 0b
