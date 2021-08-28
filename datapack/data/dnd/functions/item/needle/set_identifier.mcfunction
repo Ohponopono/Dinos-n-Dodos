@@ -12,4 +12,4 @@ execute if entity @s[type=#dnd:identifier/mollusk] run data modify storage dnd:s
 execute if entity @s[type=#dnd:identifier/mystery] run data modify storage dnd:storage root.temp.identifier set value ["mystery","{\"translate\":\"lore.dnd.identifier.mystery\"}"]
 execute if entity @s[type=#dnd:identifier/primate] run data modify storage dnd:storage root.temp.identifier set value ["primate","{\"translate\":\"lore.dnd.identifier.primate\"}"]
 execute if entity @s[type=#dnd:identifier/reptile] run data modify storage dnd:storage root.temp.identifier set value ["reptile","{\"translate\":\"lore.dnd.identifier.reptile\"}"]
-execute if entity @s[tag=dnd.dinosaur] run data modify storage dnd:storage root.temp.identifier set value ["bird","{\"translate\":\"lore.dnd.identifier.bird\"}"]
+execute if entity @s[tag=dnd.entity] run data modify storage dnd:storage root.temp.identifier set value ["bird","{\"translate\":\"lore.dnd.identifier.bird\"}"]

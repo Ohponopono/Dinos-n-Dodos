@@ -59,7 +59,7 @@ data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Hidden
 # Goat
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsScreamingGoat set from entity @s IsScreamingGoat
 
-data modify entity @s[tag=!dnd.dinosaur] CustomName set value ''
+data modify entity @s[tag=dnd.entity] CustomName set value ''
 data modify storage dnd:storage root.temp.VillagerData set from entity @s VillagerData
 data modify entity @s VillagerData.profession set value "minecraft:none"
 item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle
