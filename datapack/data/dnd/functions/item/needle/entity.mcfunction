@@ -59,10 +59,12 @@ data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Hidden
 # Goat
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsScreamingGoat set from entity @s IsScreamingGoat
 
-data modify entity @s[tag=dnd.entity] CustomName set value ''
+data modify entity @s[tag=!dnd.entity] CustomName set value ''
 data modify storage dnd:storage root.temp.VillagerData set from entity @s VillagerData
 data modify entity @s VillagerData.profession set value "minecraft:none"
-item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle
+execute unless entity @s[tag=dnd.modified] run item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle
+execute if entity @s[tag=dnd.modified] run data modify storage dnd:storage root.temp.item.tag.dnd.genome.modified set value 1b
+execute if entity @s[tag=dnd.modified] run item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle_modified
 data modify entity @s CustomName set from storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CustomName
 data modify entity @s VillagerData set from storage dnd:storage root.temp.VillagerData
 
