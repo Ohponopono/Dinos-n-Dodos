@@ -302,7 +302,7 @@
 			"scale": [2, 2, 2]
 		},
 		"head": {
-			"rotation": [-22.5, 0, 0],
+			"rotation": [-45, 0, 0],
 			"translation": [0, 20, 0],
 			"scale": [3.2, 3.2, 3.2]
 		}

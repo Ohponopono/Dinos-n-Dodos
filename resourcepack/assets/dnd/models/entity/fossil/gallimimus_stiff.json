@@ -303,7 +303,7 @@
 		},
 		"head": {
 			"rotation": [-22.5, 0, 0],
-			"translation": [0, -18, -12],
+			"translation": [0, -19, -12],
 			"scale": [1.6, 1.6, 1.6]
 		}
 	},
