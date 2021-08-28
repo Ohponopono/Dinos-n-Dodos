@@ -25,7 +25,7 @@
             "items": [
               "minecraft:structure_block"
             ],
-            "nbt": "{dnd:{storage:{modified:1}}}"
+            "nbt": "{dnd:{genome:{modified:1b}}}"
           }
         ]
       }
