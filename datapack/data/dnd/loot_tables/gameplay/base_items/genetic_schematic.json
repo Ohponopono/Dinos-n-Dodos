@@ -53,12 +53,12 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"genetic_note\"}}"
+              "tag": "{CustomModelData:400001,dnd:{id:\"genetic_schematic\"}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.genetic_note",
+                "translate": "item.dnd.genetic_schematic",
                 "color": "white",
                 "italic": false
               }
