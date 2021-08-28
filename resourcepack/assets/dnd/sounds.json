@@ -88,7 +88,22 @@
   },
   "ui.cultivator.take_result": {
     "sounds": [
-      "dnd:block/cultivator"
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 0.8
+      }
     ],
     "subtitle": "subtitles.dnd.ui.cultivator.take_result"
   },
@@ -115,7 +130,22 @@
   },
   "ui.modifier.take_result": {
     "sounds": [
-      "dnd:block/modifier"
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 0.8
+      }
     ],
     "subtitle": "subtitles.dnd.ui.modifier.take_result"
   }
