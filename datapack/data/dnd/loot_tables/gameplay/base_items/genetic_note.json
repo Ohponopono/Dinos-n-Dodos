@@ -18,8 +18,8 @@
                   "italic": false,
                   "with": [
                     {
-                      "nbt": "root.temp.ancient_dna_source_data.genome.unique_data.CustomName",
-                      "storage": "dnd:storage",
+                      "nbt": "Items[{Slot:3b}].tag.dnd.genome.unique_data.CustomName",
+                      "block": "~ ~ ~",
                       "interpret": true
                     }
                   ]

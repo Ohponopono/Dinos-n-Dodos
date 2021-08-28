@@ -2,5 +2,7 @@
 # Recipes for crafting
 ####################
 
-# Test recipe
-execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if block ~ ~ ~ barrel{Items:[{Slot:3b,id:"minecraft:sand"},{Slot:21b,id:"minecraft:stone"}]} run loot replace block ~ ~ ~ container.14 loot dnd:items/needle
+# DNA plus Genetic Schematic
+execute if block ~ ~ ~ barrel{Items:[{Slot:21b,tag:{dnd:{id:"genetic_schematic"}}},{Slot:3b,tag:{dnd:{id:"dna_vial"}}}]} run function dnd:block/modifier/recipes/schematic_to_dna_check
+# Note plus Note
+execute if block ~ ~ ~ barrel{Items:[{Slot:21b,tag:{dnd:{id:"genetic_note"}}},{Slot:3b,tag:{dnd:{id:"genetic_note"}}}]} run function dnd:block/modifier/recipes/note_plus_note_check
