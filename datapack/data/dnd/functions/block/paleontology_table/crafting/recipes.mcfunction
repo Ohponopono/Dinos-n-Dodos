@@ -11,6 +11,8 @@ execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if da
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:quartz_block",Slot:0b},{id:"minecraft:quartz_block",Slot:1b},{id:"minecraft:quartz_block",Slot:2b}],1:[{id:"minecraft:glass",Slot:0b},{id:"minecraft:observer",Slot:1b},{id:"minecraft:glass",Slot:2b}],2:[{item_tag:"#minecraft:planks",Slot:0b},{tag:{dnd:{id:"computer_chip"}},Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/extractor
 # Modifier
 execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:quartz_block",Slot:0b},{id:"minecraft:quartz_block",Slot:1b},{id:"minecraft:quartz_block",Slot:2b}],1:[{id:"minecraft:glass",Slot:0b},{id:"minecraft:comparator",Slot:1b},{id:"minecraft:glass",Slot:2b}],2:[{item_tag:"#minecraft:planks",Slot:0b},{tag:{dnd:{id:"computer_chip"}},Slot:1b},{item_tag:"#minecraft:planks",Slot:2b}]}} run loot replace block ~ ~ ~ container.16 loot dnd:items/modifier
+# Fossil Stand
+execute if entity @s[scores={dnd.dummy=0}] if data storage dnd:storage root.temp{crafting_input:{0:[{id:"minecraft:stick",Slot:0b},{id:"minecraft:stick",Slot:1b},{id:"minecraft:stick",Slot:2b}],1:[{id:"minecraft:stick",Slot:0b},{tag:{dnd:{id:"ancient_dna_source"}},Slot:1b},{id:"minecraft:stick",Slot:2b}],2:[{id:"minecraft:stick",Slot:0b},{id:"minecraft:stick",Slot:1b},{id:"minecraft:stick",Slot:2b}]}} run function dnd:block/paleontology_table/crafting/special_recipes/fossil_stand
 
 
 # Amber Block

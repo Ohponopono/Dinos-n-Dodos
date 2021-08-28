@@ -64,6 +64,12 @@
 			},
 			"model": "dnd:item/amber_staff"
 		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:item/fossil_stand"
+		},
     {
 			"predicate": {
 				"custom_model_data": 401001
