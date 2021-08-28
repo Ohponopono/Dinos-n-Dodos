@@ -116,5 +116,13 @@
       }
     ],
     "subtitle": "subtitles.dnd.item.chisel.use"
+  },
+  "block.egg.hatch": {
+    "sounds": [
+      "mob/turtle/baby/egg_hatched1",
+      "mob/turtle/baby/egg_hatched2",
+      "mob/turtle/baby/egg_hatched3"
+    ],
+    "subtitle": "subtitles.dnd.block.egg.hatch"
   }
 }
