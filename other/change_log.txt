@@ -3,7 +3,7 @@ FR 1.0.5
 Features
 ~ Lots of optimization
 ~ Complete Paleontology Revamp
-~ Updated the Genome Modifier
+~ Updated the Genome Modifier & DNA Extractor
 + Added a variety of sounds
 + Added the Ankylosaurus
 + Added the Pachycephalosaurus
@@ -12,10 +12,11 @@ Features
 + Added the Paleontologist Villager
 + Added the Brush
 + Added the Chisel
-+ Added the Genetic Extractor
-+ Added Upgrade Cartridges
++ Added Genetic Schematics
++ Added Polished Amber and Amber Tiles
++ Added Petrified Wood, Petrified Wood, Chiseled Petrified Logs, and Chiseled Petrified Wood
++ Added the Fossil Stand
 - Removed the DNA Combinator
-- Removed the DNA Extractor
 - Removed the Analyzer
 - Removed the Sifter
 
@@ -23,7 +24,7 @@ Paleontology Revamp
   • Fossils are uncovered by mining sand with Brushes while Frozen Meat is uncovered by mining ice with Chisels.
   • There are now only 5 levels of accuracy, instead of the 10 they had prior.
       ○ Combining accuracy levels is now similar to Enchanted Books. Two Accuracy I's will add to a Accuracy II, but an Accuracy I combined with an Accuracy II would only create an Accuracy II.
-      ○ As for fossils, corresponding to their level in order of lowest to highest the new names are as follows: Shattered Fossil, Eroded Fossil, Fractured Fossil, Cracked Fossil and the Pristine Fossil.
+      ○ As for fossils, corresponding to their level in order of lowest to highest the new names are as follows: Shattered Fossil, Eroded Fossil, Fractured Fossil, Cracked Fossil, and the Pristine Fossil.
       ○ As for frozen meats, corresponding to their level in order of lowest to highest the new names are as follows: Spoiled Frozen Meat, Rotted Frozen Meat, Tainted Frozen Meat, Decaying Frozen Meat and Pristine Frozen Meat.
       ○ Like before, for both fossils and frozen meats, the highest level of accuracy always has a custom texture corresponding to the animal of the fossil.
   • Using items with the Fossil Preservation attribute can increase your chance of extracting fossils and frozen meats with higher levels of accuracy.
@@ -36,17 +37,22 @@ Paleontologist
   • The Paleontologist is a new villager profession that uses the Paleontology Table as their workstation block.
   • Paleontologists sell a variety of paleontological items, including fossils of varying accuracies.
 
-Genetic Extractor
-  • The Genetic Extractor takes on the use of the Analyzer and DNA Extractor.
-      ○ Inserting genetic material and a paper will output a Genetic Note.
-      ○ Inserting genetic material and a bottle will output DNA.
+Extractor
+  • The old DNA Extractor has been renamed to the Extractor.
+      ○ Has practically the same functionality of the old Extractor.
+      ○ Inserting structural material (fossil or frozen meat) of less than 5 accuracy and a paper will output a Genetic Note.
+      ○ Inserting structural material (fossil or frozen meat) of 5 accuracy and a paper will output a Genetic Schematic.
+      ○ Inserting genetic material (plants or needle) and a bottle will output DNA.
 
-Genome Modifier
-  • The Genome modifier now takes on the use of the DNA Combinator alongside its old use.
-      ○ Inserting two DNA will no longer modify the genome of the bottom DNA, instead to modify an organisms genome use Genetic Notes.
+Modifier
+  • The old Genome Modifier has been renamed the Modifier.
+      ○ Inserting two DNA will no longer modify the genome of the bottom DNA, instead it will modify the genome of the top DNA.
+      ○ Inserting two of the same Genetic Notes will add them together like enchanted books in an anvil.
+      ○ If two Accuracy IV Genetic Notes are added together, they will create a Genetic Schematic.
+      ○ A Genetic Schematic with a DNA of the same identifier will create a DNA of the animal on the Genetic Schematic.
 
-Upgrade Cartridges
-  • Upgrade Cartridges are a new item crafted in the Paleontology Table which allow you to upgrade other crafting stations.
-      ○ Genetic Extractors become
-      ○ Genome Modifiers become the Genetic Decoder
-      ○ Cultivators become the Vat
+Fossil Stand
+  • Surrounding a Fossil or Frozen Meat with sticks in a Paleontology Table crafts the Fossil Stand.
+      ○ The Fossil stand is used to display fossils. Fossils of different Accuracies display different models on the stand.
+      ○ Once placed simply hit the stand to pick it back up.
+      ○ Stands do not obey the laws of gravity because they do not care what you think. Hang your fossils from the ceiling!
