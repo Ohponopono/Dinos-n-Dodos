@@ -10,3 +10,4 @@ data modify entity @s ArmorItems[3].tag.dnd.age set value -12000
 # Add tags
 tag @s add dnd.entity
 tag @s add dnd.baby
+tag @s add dnd.trader_entity

@@ -156,4 +156,4 @@ execute if entity @s[type=ender_dragon] run data modify storage dnd:storage root
 execute if entity @s[type=chicken] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:chicken",egg_data:{type:"item",id:"minecraft:egg"}}
 
 ## Custom Entity
-execute if entity @s[tag=dnd.entity] if data entity @s ArmorItems[3].tag.dnd.genome run data modify storage dnd:storage root.temp.item.tag.dnd.genome set from entity @s ArmorItems[3].tag.dnd.genome
+execute if entity @s[tag=dnd.trader_entity] if data entity @s ArmorItems[3].tag.dnd.genome run data modify storage dnd:storage root.temp.item.tag.dnd.genome set from entity @s ArmorItems[3].tag.dnd.genome
