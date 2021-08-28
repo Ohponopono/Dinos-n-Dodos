@@ -3,8 +3,12 @@
 ####################
 
 data remove storage dnd:storage root.temp.fossil_stand_data
-execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:1} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.1"}'}
-execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:2} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.2"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:1}.genome.custom_entity_data.models{fossil:[400000]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.1.egg"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:1}.genome.custom_entity_data.models{fossil:[400001]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.1.femur"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:1}.genome.custom_entity_data.models{fossil:[400002]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.1.dung"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:2}.genome.custom_entity_data.models{fossil:[400007]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.2.imprint"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:2}.genome.custom_entity_data.models{fossil:[400008]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.2.pelvis"}'}
+execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:2}.genome.custom_entity_data.models{fossil:[400009]} run data modify storage dnd:storage root.temp.fossil_stand_data set value {lore:'{"translate":"lore.dnd.item.fossil_stand_type.2.pelvis"}'}
 execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:3} run data modify storage dnd:storage root.temp.fossil_stand_data.lore set value '{"translate":"lore.dnd.item.fossil_stand_type.3"}'
 execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:4} run data modify storage dnd:storage root.temp.fossil_stand_data.lore set value '{"translate":"lore.dnd.item.fossil_stand_type.4"}'
 execute if data storage dnd:storage root.temp.crafting_input.1[{Slot:1b}].tag.dnd{accuracy:5} run data modify storage dnd:storage root.temp.fossil_stand_data.lore set value '{"translate":"lore.dnd.item.fossil_stand_type.5"}'

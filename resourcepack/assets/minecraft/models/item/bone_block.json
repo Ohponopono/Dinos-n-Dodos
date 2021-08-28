@@ -8,23 +8,35 @@
         "predicate": {
           "custom_model_data": 400000
         },
-      "model": "dnd:entity/fossil/basic_25"
+      "model": "dnd:entity/fossil/egg"
     },
     {
         "predicate": {
           "custom_model_data": 400001
         },
-      "model": "dnd:entity/fossil/basic_50"
+      "model": "dnd:entity/fossil/sauropod_femur"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
+      "model": "dnd:entity/fossil/dung"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dnd:entity/fossil/skin_imprint"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
       "model": "dnd:entity/fossil/saurischian_pelvis"
     },
     {
         "predicate": {
-          "custom_model_data": 400003
+          "custom_model_data": 400009
         },
       "model": "dnd:entity/fossil/ornithischian_pelvis"
     },
