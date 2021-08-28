@@ -20,8 +20,8 @@
     "extractor": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-          "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"extractor\"}}}]}}"
+        "item": {
+          "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"extractor\"}}}]}}"
         }
       }
     }

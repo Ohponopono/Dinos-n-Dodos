@@ -20,8 +20,8 @@
     "placed_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-          "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"modifier\"}}}]}}"
+        "item": {
+          "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"modifier\"}}}]}}"
         }
       }
     }

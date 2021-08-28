@@ -16,7 +16,7 @@
     "hidden": false
   },
   "criteria": {
-    "inventory change": {
+    "fossil_5": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -24,7 +24,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"fossil\",accuracy:5}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",type:\"fossil\",accuracy:5}}"
           }
         ]
       }

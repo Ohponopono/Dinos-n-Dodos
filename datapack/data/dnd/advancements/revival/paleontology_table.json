@@ -17,11 +17,11 @@
     "hidden": false
   },
   "criteria": {
-    "killed_ghast": {
+    "paleontology_table": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-          "item": {
-              "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"paleontology_table\"}}}]}}"
+        "item": {
+          "nbt": "{BlockEntityTag:{Items:[{tag:{dnd:{block:\"paleontology_table\"}}}]}}"
         }
       }
     }
