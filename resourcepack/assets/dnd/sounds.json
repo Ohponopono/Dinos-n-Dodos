@@ -85,5 +85,38 @@
     ],
     "pitch": 0.5,
     "subtitle": "subtitles.dnd.tyrannosaurus.idle"
+  },
+  "ui.cultivator.take_result": {
+    "sounds": [
+      "dnd:block/cultivator"
+    ],
+    "subtitle": "subtitles.dnd.ui.cultivator.take_result"
+  },
+  "ui.extractor.take_result": {
+    "sounds": [
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dnd.ui.extractor.take_result"
+  },
+  "ui.modifier.take_result": {
+    "sounds": [
+      "dnd:block/modifier"
+    ],
+    "subtitle": "subtitles.dnd.ui.modifier.take_result"
   }
 }

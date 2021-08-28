@@ -205,9 +205,9 @@
   "entity.dnd.paleontologist": "Paleontologist",
 
   "subtitles.dnd.block.egg.hatch": "Egg hatches",
-  "subtitles.dnd.block.cultivator.function": "Cultivator cultivates",
-  "subtitles.dnd.block.extractor.function": "Extractor extracts",
-  "subtitles.dnd.block.genome_modifier.function": "Genome Modifier modifies",
+  "subtitles.dnd.ui.cultivator.take_result": "Cultivator cultivates",
+  "subtitles.dnd.ui.extractor.take_result": "Extractor extracts",
+  "subtitles.dnd.ui.modifier.take_result": "Modifier modifies",
   "subtitles.dnd.acrocanthosaurus.idle": "Acrocanthosaurus snarls",
   "subtitles.dnd.acrocanthosaurus.hurt": "Acrocanthosaurus hurts",
   "subtitles.dnd.acrocanthosaurus.death": "Acrocanthosaurus dies",
