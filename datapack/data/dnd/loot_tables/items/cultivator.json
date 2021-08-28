@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"cultivator\"}}}]},CustomModelData:400002,dnd:{id:\"cultivator\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"cultivator\"}}}]},CustomModelData:400001,dnd:{id:\"cultivator\"}}"
             },
             {
               "function": "minecraft:set_name",

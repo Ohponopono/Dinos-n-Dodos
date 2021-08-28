@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"extractor\"}}}]},CustomModelData:400001,dnd:{id:\"extractor\"}}"
+              "tag": "{BlockEntityTag:{id:\"minecraft:barrel\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"extractor\"}}}]},CustomModelData:400005,dnd:{id:\"extractor\"}}"
             },
             {
               "function": "minecraft:set_name",

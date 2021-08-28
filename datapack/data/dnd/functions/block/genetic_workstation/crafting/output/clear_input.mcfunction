@@ -9,4 +9,8 @@ execute store result block ~ ~ ~ Items[{Slot:3b}].Count int 1 run data get block
 execute store result block ~ ~ ~ Items[{Slot:21b}].Count int 1 run data get block ~ ~ ~ Items[{Slot:21b}].Count 0.9999999999
 execute if entity @s[tag=dnd.cultivator] run item replace block ~ ~ ~ container.21 with minecraft:bucket
 execute if entity @s[tag=dnd.extractor.needle_output] run loot replace block ~ ~ ~ container.3 loot dnd:items/needle
+execute if entity @s[tag=dnd.cultivator] run playsound dnd:ui.cultivator.take_result block @a[distance=..16]
+execute if entity @s[tag=dnd.extractor] run playsound dnd:ui.extractor.take_result block @a[distance=..16]
+execute if entity @s[tag=dnd.modifier] run playsound dnd:ui.modifier.take_result block @a[distance=..16]
+
 tag @s remove dnd.extractor.needle_output
