@@ -20,13 +20,13 @@
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dnd:entity/fossil/saurischian_75"
+      "model": "dnd:entity/fossil/saurischian_pelvis"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dnd:entity/fossil/ornithischian_75"
+      "model": "dnd:entity/fossil/ornithischian_pelvis"
     },
     {
         "predicate": {

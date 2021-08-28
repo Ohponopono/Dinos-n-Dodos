@@ -49,7 +49,7 @@ Modifier
       ○ Inserting two DNA will no longer modify the genome of the bottom DNA, instead it will modify the genome of the top DNA.
       ○ Inserting two of the same Genetic Notes will add them together like enchanted books in an anvil.
       ○ If two Accuracy IV Genetic Notes are added together, they will create a Genetic Schematic.
-      ○ A Genetic Schematic with a DNA of the same identifier will create a DNA of the animal on the Genetic Schematic.
+      ○ A Genetic Schematic (Bottom Slot) with a DNA (Top Slot) of the same identifier will create a DNA of the animal on the Genetic Schematic.
 
 Fossil Stand
   • Surrounding a Fossil or Frozen Meat with sticks in a Paleontology Table crafts the Fossil Stand.
