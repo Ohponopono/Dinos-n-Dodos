@@ -3,8 +3,8 @@
 ####################
 
 ## Add Tag
-data modify storage dnd:storage root.temp.id set from entity @e[tag=dnd.entity,tag=!dnd.baby,distance=3..24,limit=1,sort=nearest,nbt={ArmorItems:[{},{},{},{tag:{dnd:{storage:{EntityType:"wandering_trader"}}}}]}] ArmorItems[3].tag.dnd.storage.EntityID
-execute store result score temp_0 dnd.dummy run data modify storage dnd:storage root.temp.id set from entity @s ArmorItems[3].tag.dnd.storage.EntityID
+data modify storage dnd:storage root.temp.id set from entity @e[tag=dnd.entity,tag=!dnd.baby,distance=3..24,limit=1,sort=nearest,nbt={ArmorItems:[{},{},{},{tag:{dnd:{storage:{EntityType:"wandering_trader"}}}}]}] ArmorItems[3].tag.dnd.genome.id
+execute store result score temp_0 dnd.dummy run data modify storage dnd:storage root.temp.id set from entity @s ArmorItems[3].tag.dnd.genome.id
 execute if score temp_0 dnd.dummy matches 0 run data modify storage dnd:storage root.temp.id set from entity @e[tag=dnd.entity,tag=!dnd.baby,distance=3..24,limit=1,sort=nearest,nbt={ArmorItems:[{},{},{},{tag:{dnd:{storage:{EntityType:"wandering_trader"}}}}]}] Pos
 ## Store Pos
 # Store X
