@@ -1,5 +1,5 @@
 ####################
-# Chiseled Petrified Log Place
+# Chiseled Petrified Wood Place
 ####################
 
 execute unless entity @s[x_rotation=-45..45] if block ~ ~ ~ furnace run setblock ~ ~ ~ spawner{SpawnData:{id:"armor_stand",ArmorItems:[{},{},{},{id:"spawner",Count:1,tag:{dnd:{item:"chiseled_petrified_wood"},CustomModelData:400013}}]}}

@@ -20,25 +20,25 @@
 			"predicate": {
 				"custom_model_data": 400003
 			},
-			"model": "dnd:block/petrified_log/up_down"
+			"model": "dnd:block/amber_tiles"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400004
 			},
-			"model": "dnd:block/petrified_log/north_south"
+			"model": "dnd:block/petrified_log/up_down"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400005
 			},
-			"model": "dnd:block/petrified_log/east_west"
+			"model": "dnd:block/petrified_log/north_south"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400006
 			},
-			"model": "dnd:block/amber_tiles"
+			"model": "dnd:block/petrified_log/east_west"
 		},
 		{
 			"predicate": {
