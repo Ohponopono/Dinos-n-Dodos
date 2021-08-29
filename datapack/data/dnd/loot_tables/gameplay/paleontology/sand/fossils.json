@@ -6,7 +6,40 @@
         {
           "type": "minecraft:loot_table",
           "name": "dnd:gameplay/paleontology/sand/dino_fossils",
-          "weight": 4
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "doFossilAccuracy"
+                },
+                "score": "dnd.config"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/pristine_fossil",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "doFossilAccuracy"
+                },
+                "score": "dnd.config"
+              },
+              "range": 0
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",
