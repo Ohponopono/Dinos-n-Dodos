@@ -8,13 +8,13 @@
 			"predicate": {
 				"custom_model_data": 400000
 			},
-			"model": "dnd:item/dnd_icon"
+			"model": "dnd:item/nothing"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 400001
 			},
-			"model": "dnd:item/nothing"
+			"model": "dnd:item/dnd_icon"
 		}
 	]
 }
