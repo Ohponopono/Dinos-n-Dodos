@@ -4,7 +4,6 @@
 
 ## Functions
 # Execute if adult too far away
-execute if entity @e[tag=dnd.entity,tag=!global.ignore,distance=3..24,nbt={ArmorItems:[{},{},{},{tag:{dnd:{storage:{EntityType:"wandering_trader"}}}}]}] run function dnd:entity/global/baby/follow_adult
 
 ## Commands
 # Remove Tick of Age
