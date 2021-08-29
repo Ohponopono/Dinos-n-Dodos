@@ -4,6 +4,7 @@ Features
 ~ Lots of optimization
 ~ Complete Paleontology Revamp
 ~ Updated the Genome Modifier & DNA Extractor
+~ Lots of QOL Changes
 + Added a variety of sounds
 + Added the Ankylosaurus
 + Added the Pachycephalosaurus
@@ -14,11 +15,12 @@ Features
 + Added the Chisel
 + Added Genetic Schematics
 + Added Polished Amber and Amber Tiles
-+ Added Petrified Wood, Petrified Wood, Chiseled Petrified Logs, and Chiseled Petrified Wood
++ Added Petrified Wood, Petrified Planks, Chiseled Petrified Logs, and Chiseled Petrified Wood
 + Added the Fossil Stand
 - Removed the DNA Combinator
 - Removed the Analyzer
 - Removed the Sifter
+- Removed the Projector
 
 Paleontology Revamp
   • Fossils are uncovered by mining sand with Brushes while Frozen Meat is uncovered by mining ice with Chisels.
