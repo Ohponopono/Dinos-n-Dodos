@@ -1,8 +1,7 @@
 {
 	"texture_size": [48, 64],
 	"textures": {
-		"0": "dnd:entity/fossil/basic_50",
-		"particle": "dnd:entity/fossil/basic_50"
+		"0": "dnd:entity/fossil/sauropod_femur"
 	},
 	"elements": [
 		{

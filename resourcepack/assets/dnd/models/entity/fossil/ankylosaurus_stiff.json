@@ -270,14 +270,10 @@
 		}
 	],
 	"display": {
-		"ground": {
-			"rotation": [-157.5, 0, -180],
-			"translation": [0, 2.5, 0]
-		},
-		"fixed": {
-			"rotation": [-67, 0, 0],
-			"translation": [0, -0.5, -79],
-			"scale": [4, 4, 4]
+		"head": {
+			"rotation": [-22.5, 0, 0],
+			"translation": [0, -12.85, 0],
+			"scale": [1.6, 1.6, 1.6]
 		}
 	},
 	"groups": [

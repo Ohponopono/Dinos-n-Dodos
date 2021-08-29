@@ -296,14 +296,9 @@
 		}
 	],
 	"display": {
-		"ground": {
-			"rotation": [-135, 0, -180],
-			"translation": [0, 23, 0],
-			"scale": [2, 2, 2]
-		},
 		"head": {
 			"rotation": [-45, 0, 0],
-			"translation": [0, 20, 0],
+			"translation": [0, 20.1, 0],
 			"scale": [3.2, 3.2, 3.2]
 		}
 	},
