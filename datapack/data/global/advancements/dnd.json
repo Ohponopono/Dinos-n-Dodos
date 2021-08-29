@@ -30,7 +30,7 @@
     "announce_to_chat": false,
     "icon": {
       "item": "minecraft:barrier",
-      "nbt": "{CustomModelData:400001}"
+      "nbt": "{CustomModelData:400000}"
     }
   },
   "parent": "global:rag",

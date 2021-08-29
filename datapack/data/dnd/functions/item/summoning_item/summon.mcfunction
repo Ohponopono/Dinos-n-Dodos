@@ -144,6 +144,6 @@ execute if data storage dnd:storage root.temp.genome{id:"minecraft:snow_golem"} 
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:zombie_horse"} run summon zombie_horse ~ ~0.1 ~ {Tags:["dnd.newly_spawned_clone"]}
 
 # Custom Entity
-execute if data storage dnd:storage root.temp.genome.custom_entity_data run summon wandering_trader ~ ~0.1 ~ {Silent:1b,Tags:["dnd.newly_spawned_clone"],HandItems:[{id:"minecraft:leather_horse_armor",Count:1b},{}],HandDropChances:[-10000.0f,-10000.0f],ArmorItems:[{},{},{},{id:"minecraft:barrier",Count:1b,tag:{CustomModelData:400000}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],Offers:{Recipes:[]}}
+execute if data storage dnd:storage root.temp.genome.custom_entity_data run summon wandering_trader ~ ~0.1 ~ {Silent:1b,Tags:["dnd.newly_spawned_clone"],HandItems:[{id:"minecraft:leather_horse_armor",Count:1b},{}],HandDropChances:[-10000.0f,-10000.0f],ArmorItems:[{},{},{},{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:400000}}],ArmorDropChances:[-10000.0f,-10000.0f,-10000.0f,-10000.0f],Offers:{Recipes:[]}}
 
 execute as @e[tag=dnd.newly_spawned_clone,limit=1] run function dnd:item/summoning_item/copy_nbt
