@@ -32,6 +32,7 @@ execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage r
 # Max Health
 execute store result score temp_1 dnd.dummy run attribute @s minecraft:generic.max_health get 1000
 execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes[{Name:"minecraft:generic.max_health"}].Base double 0.001 run scoreboard players get temp_1 dnd.dummy
+execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Health double 0.001 run scoreboard players get temp_1 dnd.dummy
 # Movement Speed
 execute store result score temp_1 dnd.dummy run attribute @s minecraft:generic.movement_speed get 1000
 execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes[{Name:"minecraft:generic.movement_speed"}].Base double 0.001 run scoreboard players get temp_1 dnd.dummy

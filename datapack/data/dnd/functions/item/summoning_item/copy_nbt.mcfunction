@@ -3,6 +3,7 @@
 ####################
 
 data modify entity @s {} merge from storage dnd:storage root.temp.genome.unique_data
+data modify entity @s Health set from storage dnd:storage root.temp.genome.unique_data.Attributes[{Name:"minecraft:generic.max_health"}].Base
 execute if data storage dnd:storage root.temp.genome.custom_entity_data run function dnd:item/summoning_item/copy_custom_entity_nbt
 execute if data entity @s Age run data modify entity @s Age set value -24000
 execute if data storage dnd:storage root.temp.genome.modified run tag @s add dnd.modified
