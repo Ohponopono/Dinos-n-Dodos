@@ -16,7 +16,7 @@ data modify storage dnd:storage root.temp.item.tag.dnd.genome.identifier set fro
 ## Copying over entity data
 
 # Attributes
-data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes set from entity @s Attributes
+function dnd:item/needle/set_attributes
 
 # Universal
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.NoGravity set from entity @s NoGravity
