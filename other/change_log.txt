@@ -26,9 +26,7 @@ Paleontology Revamp
   • Fossils are uncovered by mining sand with Brushes while Frozen Meat is uncovered by mining ice with Chisels.
   • There are now only 5 levels of accuracy, instead of the 10 they had prior.
       ○ Combining accuracy levels is now similar to Enchanted Books. Two Accuracy I's will add to a Accuracy II, but an Accuracy I combined with an Accuracy II would only create an Accuracy II.
-      ○ As for fossils, corresponding to their level in order of lowest to highest the new names are as follows: Shattered Fossil, Eroded Fossil, Fractured Fossil, Cracked Fossil, and the Pristine Fossil.
-      ○ As for frozen meats, corresponding to their level in order of lowest to highest the new names are as follows: Spoiled Frozen Meat, Rotted Frozen Meat, Tainted Frozen Meat, Decaying Frozen Meat and Pristine Frozen Meat.
-      ○ Like before, for both fossils and frozen meats, the highest level of accuracy always has a custom texture corresponding to the animal of the fossil.
+      ○ Like before, for both fossils and frozen meats, the highest level of accuracy always have a custom texture corresponding to the animal of the fossil.
   • Using items with the Fossil Preservation attribute can increase your chance of extracting fossils and frozen meats with higher levels of accuracy.
   • Using more oxidized brushes can also increase the chance of fossils themselves dropping from sand when mined, however this also decreases the chance of treasure items dropping.
 
